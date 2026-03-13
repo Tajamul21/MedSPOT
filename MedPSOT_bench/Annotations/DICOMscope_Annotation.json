@@ -1,0 +1,1291 @@
+{
+  "tasks": [
+    {
+      "task_overview": "View the Sample study in image viewer from browser menu",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_201.png",
+          "instruction": "Select the study that you want to view",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the sample study",
+              "bbox": [
+                2.68,
+                15.87,
+                15.51,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_202.png",
+          "instruction": "Select the particular section of the 'Study'",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the 'series OT' study",
+              "bbox": [
+                4.13,
+                17.46,
+                6.58,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_204.png",
+          "instruction": "Click on the report you want to view",
+          "actions": [
+            {
+              "type": "click",
+              "target": "view the OT study report",
+              "bbox": [
+                5.02,
+                22.02,
+                4.58,
+                1.79
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_205.png",
+          "instruction": "Select the presentation state",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the presentation state of the selected study",
+              "bbox": [
+                13.39,
+                25.79,
+                12.72,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/DICOMscope/Screenshot_206.png",
+          "instruction": "Click on the OK button to close the 'Presentation state selection' dialogue",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Confirming selection of the Presentation state of the selected study.",
+              "bbox": [
+                16.41,
+                42.06,
+                2.57,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the content of the Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_207.png",
+          "instruction": "Click on the 'Flip' widget from the Processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Flip the report or DICOM in the viewer",
+              "bbox": [
+                37.5,
+                38.89,
+                1.9,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_208.png",
+          "instruction": "Click on the 'Flip' widget from the Processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Flip the report or DICOM in the viewer",
+              "bbox": [
+                37.61,
+                38.89,
+                1.67,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Rotate the content of the Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_209.png",
+          "instruction": "Click on the 'Rotate' widget from the processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Rotate the DICOM or report currently in the viewer",
+              "bbox": [
+                39.73,
+                38.89,
+                1.79,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_210.png",
+          "instruction": "Rotate the Report in the viewer by clicking on the rotate widget from the processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Rotate the DICOM or report currently in the viewer",
+              "bbox": [
+                39.73,
+                39.09,
+                1.56,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Invert the color of the DICOM or Report in Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_211.png",
+          "instruction": "Invert the colors of the current DICOM or Report by clicking on the invert widget from the processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Inverting the color of the DICOM or Report",
+              "bbox": [
+                41.74,
+                39.48,
+                1.67,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_212.png",
+          "instruction": "Invert the colors of the current DICOM or Report by clicking on the invert widget from the processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Inverting the colors of the DICOM or Report",
+              "bbox": [
+                41.85,
+                39.29,
+                1.45,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import DICOM data and view it in the Image viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_213.png",
+          "instruction": "Load the 'Image File' into the DICOM viewer",
+          "actions": []
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_214.png",
+          "instruction": "Select the '.dcm' file from local storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Load the '.dcm' file",
+              "bbox": [
+                40.62,
+                46.43,
+                6.14,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_215.png",
+          "instruction": "Open the selected DICOM file",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the selected DICOM file",
+              "bbox": [
+                56.03,
+                66.27,
+                4.46,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Use presentation LUT processing tool",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_216.png",
+          "instruction": "Select the Presentation LUT from the processing tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Changing the presentation of the DICOM viewer",
+              "bbox": [
+                43.75,
+                39.09,
+                1.79,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_217.png",
+          "instruction": "Select the 'Darken Image' from the Presentation LUT menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the DICOM in 'Darken Image' presentation style",
+              "bbox": [
+                43.75,
+                47.42,
+                13.06,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the DICOM in different resolutions in the Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_218.png",
+          "instruction": "Click on the 'Fit Image' Icon from the zoom utilities",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Fit the Image to the DICOM viewer resolution",
+              "bbox": [
+                38.73,
+                48.21,
+                1.56,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_219.png",
+          "instruction": "Click on the 'Zoom Image 1:1' from the zoom utilities",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the DICOM in 1:1 zoom",
+              "bbox": [
+                41.07,
+                48.02,
+                1.67,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the Presentation state of the DICOM in the image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_220.png",
+          "instruction": "Change the 'Presentation state' of the current DICOM by clicking on the 'Presentation state' Icon from the Processing tools.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Changing the Presentation state of the current DICOM",
+              "bbox": [
+                45.65,
+                39.09,
+                1.79,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import the study and view it in Rectangular shutter in 1:1 Zoom",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_222.png",
+          "instruction": "Import the 'Study' into the DICOM viewer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the study in the DICOM viewer",
+              "bbox": [
+                5.36,
+                26.39,
+                16.52,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_223.png",
+          "instruction": "Select the 'Rectangular Shutter' from the shutter tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the 'Study' through rectangular shutter in the DICOM viewer.",
+              "bbox": [
+                86.16,
+                14.29,
+                1.56,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_224.png",
+          "instruction": "Select the 'Zoom image 1:1' to view the study report clearly",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the study report in Zoom 1:1",
+              "bbox": [
+                88.95,
+                45.04,
+                1.45,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import the sample study from browser menu and view it in Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_225.png",
+          "instruction": "Click on the required study that needs to be imported from the Browser section",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing DICOM study",
+              "bbox": [
+                3.01,
+                25.4,
+                18.42,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_226.png",
+          "instruction": "Click on the 'Series CT' section from the drop-down of the study",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing the CT report of the Study.",
+              "bbox": [
+                3.91,
+                27.58,
+                6.25,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_227.png",
+          "instruction": "Double click the CT report that needs to be imported",
+          "actions": [
+            {
+              "type": "double_click",
+              "target": "Importing the CT report into the Viewer",
+              "bbox": [
+                5.36,
+                29.76,
+                5.13,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the DICOM in polygonal shutter",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_229.png",
+          "instruction": "Select the Polygonal shutter from the shutter options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the DICOM using the polygonal shutter",
+              "bbox": [
+                90.18,
+                14.29,
+                1.67,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_230.png",
+          "instruction": "Draw on the DICOM using the polygonal shutter",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the DICOM using the polygonal shutter",
+              "bbox": [
+                28.35,
+                34.92,
+                11.05,
+                19.84
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Delete the Drawing from the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_231.png",
+          "instruction": "Right click on the drawing to view the drawing options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the drawing from the DICOM",
+              "bbox": [
+                25.67,
+                31.75,
+                11.72,
+                23.81
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_232.png",
+          "instruction": "From the options menu, select the 'Delete' option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected drawing from the DICOM",
+              "bbox": [
+                31.58,
+                38.1,
+                3.68,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Painting the DICOM using rectangle tool",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_233.png",
+          "instruction": "Select the rectangle tool from the paint tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Paint the DICOM in rectangular manner",
+              "bbox": [
+                88.17,
+                20.44,
+                1.67,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_234.png",
+          "instruction": "Select the paint layer and confirm the layer properties",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Paint in a layer over the DICOM",
+              "bbox": [
+                56.81,
+                81.94,
+                1.79,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_235.png",
+          "instruction": "use mouse to draw over the DICOM",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Draw in a layer over DICOM",
+              "bbox": [
+                12.72,
+                41.27,
+                22.54,
+                28.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Paint over DICOM in a separate layer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_236.png",
+          "instruction": "Select the Point tool from the paint tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Paint over the DICOM in a new layer",
+              "bbox": [
+                90.29,
+                20.63,
+                1.56,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_237.png",
+          "instruction": "Draw over the image",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Paint over the DICOM in a new layer",
+              "bbox": [
+                36.16,
+                34.72,
+                3.24,
+                4.96
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Configure the graphic layer properties",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_238.png",
+          "instruction": "Select the layer tool from the paint tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Configure the paint layer properties",
+              "bbox": [
+                94.2,
+                24.6,
+                1.67,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_239.png",
+          "instruction": "Edit the current graphic layer using the 'edit' button from the layer manager",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Configure the graphic layer properties",
+              "bbox": [
+                32.25,
+                71.43,
+                2.12,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_241.png",
+          "instruction": "Change the color of the paintings in the current graphic layer",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Configure the current Graphic layer properties",
+              "bbox": [
+                51.23,
+                47.02,
+                3.68,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_242.png",
+          "instruction": "Confirm the changes by clicking the 'OK' button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Changing the graphic layer properties",
+              "bbox": [
+                52.46,
+                71.03,
+                2.01,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add new layer to the graphic layers of the current DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_243.png",
+          "instruction": "Select the layer from the paint tools",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To add a new layer to the graphic layers of the current DICOM",
+              "bbox": [
+                94.2,
+                24.8,
+                1.56,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_244.png",
+          "instruction": "Click on the 'New' button to add a new graphic layer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To add a new layer to the graphic layers of the current DICOM",
+              "bbox": [
+                47.32,
+                50.79,
+                2.23,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_245.png",
+          "instruction": "Confirm selection of the layer properties of the new layer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To add a new layer to the graphic layers of the current DICOM",
+              "bbox": [
+                52.34,
+                85.91,
+                2.12,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_246.png",
+          "instruction": "Close the layer manager menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Closing the layer manager",
+              "bbox": [
+                44.08,
+                81.35,
+                2.9,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View process logs of different active processes",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_247.png",
+          "instruction": "Select the process log to view the current processes and their status",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View process logs",
+              "bbox": [
+                11.16,
+                9.13,
+                5.02,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_248.png",
+          "instruction": "Select a particular process from the process log",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To check the status of the selected process",
+              "bbox": [
+                0.33,
+                14.29,
+                99.22,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_249.png",
+          "instruction": "Select a particular process from the process log menu ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To check the status of the selected process",
+              "bbox": [
+                0.22,
+                16.07,
+                99.44,
+                1.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Delete the selected study from the browser menu",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_250.png",
+          "instruction": "Select a study from the 'Browser' menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected study",
+              "bbox": [
+                2.68,
+                15.48,
+                11.05,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_251.png",
+          "instruction": "Click on the 'Delete' Icon from the toolbar ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected study",
+              "bbox": [
+                9.38,
+                5.75,
+                1.67,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_252.png",
+          "instruction": "Confirm the deletion of the selected study",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected study",
+              "bbox": [
+                47.21,
+                52.38,
+                2.34,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Modify c/w values of the current window",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_253.png",
+          "instruction": "Click the 'c/w' icon from the window settings menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To modify the c, w values of the current window",
+              "bbox": [
+                84.04,
+                50,
+                1.67,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_254.png",
+          "instruction": "Confirm the c and w values for the current window",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Changing the c and w values for the current window",
+              "bbox": [
+                31.81,
+                92.86,
+                3.12,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_255.png",
+          "instruction": "Applying the changed c and w values ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Changing c and w value for the current window",
+              "bbox": [
+                40.51,
+                92.86,
+                4.24,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the position of the DICOM in the Image viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_256.png",
+          "instruction": "Select the horizontal slider in the image viewer and drag to change the view of the DICOM",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Change the position of the DICOM in the viewer",
+              "bbox": [
+                56.81,
+                88.49,
+                4.24,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_257.png",
+          "instruction": "Select the vertical slider in the image viewer",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Change the position of the DICOM in the viewer",
+              "bbox": [
+                82.03,
+                59.72,
+                1.0,
+                6.94
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the appearance of the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_258.png",
+          "instruction": "Select the 'Presets' from the window settings",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the appearance of the DICOM by changing the presets of the current window",
+              "bbox": [
+                86.27,
+                50,
+                1.67,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_259.png",
+          "instruction": "Select the 'Min-Max' preset for the current window",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the appearance of the DICOM by changing the presets of the current window",
+              "bbox": [
+                83.48,
+                53.97,
+                15.62,
+                2.38
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the presets for the current window",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_260.png",
+          "instruction": "select the presets from the window settings ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the presets for the current window",
+              "bbox": [
+                86.16,
+                50,
+                1.9,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_261.png",
+          "instruction": "Select 'create VOI LUT with Gamma' from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the presets for the current window",
+              "bbox": [
+                83.48,
+                64.68,
+                16.07,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_262.png",
+          "instruction": "select the gamma value of the current window ",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Change the Gamma value of the VOI LUT",
+              "bbox": [
+                51.0,
+                55.95,
+                7.03,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_263.png",
+          "instruction": "Confirm the selection of new gamma value",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the presets of the current image viewer window",
+              "bbox": [
+                51.56,
+                59.33,
+                1.9,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the image to the local storage",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_264.png",
+          "instruction": "Click on 'save to file' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the image to the local storage",
+              "bbox": [
+                9.04,
+                5.55,
+                1.67,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_265.png",
+          "instruction": "Type the name of the file",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Save the image to the local storage",
+              "bbox": [
+                39.73,
+                58.73,
+                25.45,
+                1.79
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_266.png",
+          "instruction": "Save the file to the local directory",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the file to the local storage",
+              "bbox": [
+                55.92,
+                66.67,
+                4.46,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_267.png",
+          "instruction": "Confirm the presentation state of the file to be saved",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the presentation state to the file",
+              "bbox": [
+                57.7,
+                72.42,
+                2.12,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the image viewer screen to the file",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_268.png",
+          "instruction": "click on the 'save screen to file' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "save the image viewer screen to the file",
+              "bbox": [
+                10.94,
+                5.56,
+                1.45,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_269.png",
+          "instruction": "Type the name of the file ",
+          "actions": [
+            {
+              "type": "type",
+              "target": "save the image viewer screen to the file with a specific name",
+              "bbox": [
+                39.62,
+                58.33,
+                25.78,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/DICOMscope/Screenshot_270.png",
+          "instruction": "Click the save button to save the current screen as DICOM file ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the image viewer screen as DICOM file",
+              "bbox": [
+                55.92,
+                66.27,
+                4.69,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/DICOMscope/Screenshot_271.png",
+          "instruction": "Choose the VR value by clicking on the OK button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the image viewer screen as DICOM file",
+              "bbox": [
+                17.3,
+                38.29,
+                2.12,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add the current screen of the Image viewer to the print job queue",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/DICOMscope/Screenshot_272.png",
+          "instruction": "Click on the 'add to print' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Add the current screen to the print job queue",
+              "bbox": [
+                12.5,
+                5.56,
+                1.79,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/DICOMscope/Screenshot_273.png",
+          "instruction": "Confirm adding the current image to the print job",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Add the current screen to the print job queue",
+              "bbox": [
+                47.21,
+                53.77,
+                2.57,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

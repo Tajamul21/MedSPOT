@@ -1,0 +1,1427 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Import images from PC",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/1._Click_on_import_image_Icon.png",
+          "instruction": "Click on the Import Image Icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing Image",
+              "bbox": [
+                0.33,
+                6.15,
+                2.9,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/2._Select_the_image_from_local_storage_to_open.png",
+          "instruction": "Type the name of the file you want to import",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Importing Image",
+              "bbox": [
+                43.08,
+                58.33,
+                25.78,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/3._Click_on_the_open_button.png",
+          "instruction": "Click on the open button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open the selected image",
+              "bbox": [
+                58.48,
+                67.26,
+                4.8,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import DICOM and close dialogue",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/41._Click_on_import_DICOM_icon.png",
+          "instruction": "Click on import DICOM icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing DICOM",
+              "bbox": [
+                3.57,
+                6.75,
+                2.34,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/42._Select_the_DICOM_from_local_directory_and_click_on_Import_and_close_button.png",
+          "instruction": "Click on Import and Close button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing DICOM",
+              "bbox": [
+                61.38,
+                78.77,
+                7.81,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export DICOM and save it to local storage",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/76._Click_on_Export_DICOM_icon.png",
+          "instruction": "Click on Export DICOM Icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Exporting the DICOM",
+              "bbox": [
+                6.25,
+                6.55,
+                2.68,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/77._Click_on_Export_and_Close_button.png",
+          "instruction": "Click on Export and Close button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Exporting DICOM",
+              "bbox": [
+                60.27,
+                78.97,
+                7.7,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/78._Select_the_Export_folder_and_save_the_DICOM.png",
+          "instruction": "Select the Export Folder",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saving the DICOM on local storage",
+              "bbox": [
+                42.86,
+                58.13,
+                25.56,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Capture and save the current DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/82._Click_on_the_capture_selected_view.png",
+          "instruction": "Click on Capture Selected View icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Capture the current frame of DICOM",
+              "bbox": [
+                9.49,
+                6.15,
+                2.34,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/83._Click_on_the_save_button_to_save_the_current_view.png",
+          "instruction": "Click on the save button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the current DICOM view",
+              "bbox": [
+                49.89,
+                65.87,
+                4.8,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/84._Give_it_a_filename_and_then_click_on_the_save_button.png",
+          "instruction": "Name the file and save it",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Enter filename and confirm save",
+              "bbox": [
+                43.3,
+                58.73,
+                25.22,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Navigate through DICOM frames using the slider.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/85._Click_on_the_slider.png",
+          "instruction": "Click on the slider",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access DICOM frame navigation",
+              "bbox": [
+                95.98,
+                15.67,
+                1.34,
+                1.59
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/86._Scroll_the_slider_to_access_frame_2_of_DICOM.png",
+          "instruction": "Drag the slider down",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "View different DICOM frames",
+              "bbox": [
+                96.09,
+                21.23,
+                1.34,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/87._Scroll_the_slider_to_access_frame_3_of_DICOM.png",
+          "instruction": "Drag the slider down",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "View different DICOM frames",
+              "bbox": [
+                95.98,
+                21.83,
+                1.34,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/Weasis/88._Scroll_the_slider_to_access_frame_4_of_DICOM.png",
+          "instruction": "Drag the slider down",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "View different DICOM frames",
+              "bbox": [
+                95.98,
+                25.6,
+                1.79,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/Weasis/89._Scroll_the_slider_to_access_frame_5_of_DICOM.png",
+          "instruction": "Drag the slider down",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "View different DICOM frames",
+              "bbox": [
+                95.98,
+                31.75,
+                1.56,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the left mouse click action.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/90._Click_on_the_change_mouse_action_icon_for_left_click_action.png",
+          "instruction": "Click on the Change Mouse Action icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open left click action settings",
+              "bbox": [
+                12.72,
+                6.94,
+                2.79,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/92._Select_the_measure_action.png",
+          "instruction": "Select the Measure option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set left click action to Measure",
+              "bbox": [
+                13.28,
+                25.2,
+                10.04,
+                1.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the right mouse click action.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/93._Click_on_the_change_mouse_action_icon_for_right_click_action.png",
+          "instruction": "Click on the Change Mouse Action icon for right click",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open right click action settings",
+              "bbox": [
+                15.51,
+                6.15,
+                2.9,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/95._Select_the_Pan_action.png",
+          "instruction": "Select the Pan option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set right click action to Pan",
+              "bbox": [
+                16.41,
+                11.9,
+                7.81,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the scroll wheel mouse action.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/96._Click_on_the_change_mouse_action_icon_for_scroll_wheel_action.png",
+          "instruction": "Click on the Change Mouse Action icon for scroll wheel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open scroll wheel action settings",
+              "bbox": [
+                18.75,
+                6.35,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/97._Access_the_drop_down_and_select_the_Zoom_action.png",
+          "instruction": "Select the Zoom option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set scroll wheel action to Zoom",
+              "bbox": [
+                18.9,
+                14.61,
+                7.81,
+                2.56
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the scroll wheel click action.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/98._Click_on_the_change_mouse_action_icon_for_the_scroll_wheel_click.png",
+          "instruction": "Click on the Change Mouse Action icon for scroll wheel click",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open scroll wheel click action settings",
+              "bbox": [
+                22.1,
+                6.55,
+                2.46,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/100._Select_the_window_level_action.png",
+          "instruction": "Select the Window/Level option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set scroll wheel click action to Window/Level",
+              "bbox": [
+                22.32,
+                14.88,
+                8.48,
+                2.18
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the DICOM viewer layout to 1x2.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/4._Click_on_the_layout_Icon.png",
+          "instruction": "Click on the Layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open layout selection menu",
+              "bbox": [
+                25.33,
+                6.75,
+                2.46,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/5._Access_the_drop_down_menu_and_select_1x2_layout.png",
+          "instruction": "Select the 1x2 layout option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set DICOM viewer layout to 1x2",
+              "bbox": [
+                26.23,
+                15.67,
+                10.16,
+                2.38
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Display DICOM information for the current viewer window.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/7._Click_on_the_Layout_Icon.png",
+          "instruction": "Click on the Layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open layout and view options menu",
+              "bbox": [
+                25.33,
+                6.94,
+                2.46,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/8._Access_the_drop_down_menu_and_select_the_DICOM_information.png",
+          "instruction": "Select the DICOM information option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM information in the viewer window",
+              "bbox": [
+                26.0,
+                22.02,
+                10.6,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Display the histogram for the current DICOM frame.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/10._Click_on_the_Layout_Icon.png",
+          "instruction": "Click on the Layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open layout and view options menu",
+              "bbox": [
+                25.56,
+                7.14,
+                2.12,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/12._Select_the_Histogram_from_the_drop_down_menu.png",
+          "instruction": "Select the Histogram option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display histogram for the current DICOM frame",
+              "bbox": [
+                25.78,
+                24.8,
+                10.83,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the DICOM viewer layout to 2x2.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/14._Click_on_the_Layout_Icon.png",
+          "instruction": "Click on the Layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open layout selection menu",
+              "bbox": [
+                25.45,
+                6.35,
+                2.68,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/16._Select_the_2x2_view_for_the_current_window.png",
+          "instruction": "Select the 2x2 layout option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set DICOM viewer layout to 2x2",
+              "bbox": [
+                25.22,
+                41.27,
+                11.16,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the DICOM viewer layout to 1x4.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/18._Click_on_the_Layout_Icon.png",
+          "instruction": "Click on the Layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open layout selection menu",
+              "bbox": [
+                25.45,
+                6.55,
+                2.01,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/19._Select_the_1x4_view_from_the_drop_down_menu.png",
+          "instruction": "Select the 1x4 layout option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set DICOM viewer layout to 1x4",
+              "bbox": [
+                25.78,
+                37.9,
+                10.83,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Measure length within the DICOM frame using the line tool.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/21._Click_on_the_Measurement_Tools_Icon.png",
+          "instruction": "Click on the Measurement Tools icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open measurement tools menu",
+              "bbox": [
+                34.6,
+                6.35,
+                2.9,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/23._Select_the_Line_measurement_tool_from_the_drop_down_menu.png",
+          "instruction": "Select the Line Measurement tool",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activate line measurement tool",
+              "bbox": [
+                34.49,
+                14.68,
+                10.71,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/24._Use_the_Line_measurement_tool_to_measure_the_length_within_the_DICOM.png",
+          "instruction": "Drag to measure length using the line tool",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Measure parts of the DICOM frame using the line tool",
+              "bbox": [
+                42.86,
+                30.16,
+                12.17,
+                16.67
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Delete the selected drawing from the DICOM frame.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/25._Click_on_the_Delete_Selected_Drawings_Icon.png",
+          "instruction": "Click on the Delete Selected Drawings icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open deletion confirmation for selected drawing",
+              "bbox": [
+                40.96,
+                6.75,
+                2.34,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/27._Confirm_the_deletion_of_the_selected_drawing_by_clicking_on_the_Yes_button.png",
+          "instruction": "Confirm deletion by clicking Yes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected drawing",
+              "bbox": [
+                53.68,
+                58.73,
+                4.8,
+                2.38
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Measure an area within the DICOM frame using the rectangle tool.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/28._Click_on_the_measurement_tools_icon.png",
+          "instruction": "Click on the Measurement Tools icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open measurement tools menu",
+              "bbox": [
+                34.82,
+                6.35,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/29._Select_the_Rectangle_measurement_tool_from_the_drop_down_menu.png",
+          "instruction": "Select the Rectangle Measurement tool",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activate rectangle measurement tool",
+              "bbox": [
+                34.82,
+                21.03,
+                10.49,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/30._Use_the_rectangle_tool_for_measuring.png",
+          "instruction": "Drag to measure using the rectangle tool",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Measure area with rectangle tool",
+              "bbox": [
+                41.52,
+                29.76,
+                20.76,
+                29.96
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Draw an ellipse on the DICOM frame using the ellipse tool.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/31._Click_on_the_Drawing_tools_Icon.png",
+          "instruction": "Click on the Drawing Tools icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open drawing tools menu",
+              "bbox": [
+                37.72,
+                6.75,
+                2.68,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/33._Select_the_Ellipse_drawing_tool_from_the_drop_down_menu.png",
+          "instruction": "Select the Ellipse drawing tool",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activate ellipse drawing tool",
+              "bbox": [
+                37.95,
+                25,
+                10.49,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/34._Use_the_Ellipse_tool_to_draw_on_the_DICOM.png",
+          "instruction": "Drag to draw an ellipse",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Draw ellipse on the DICOM frame",
+              "bbox": [
+                56.47,
+                26.19,
+                12.72,
+                44.84
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import a DICOM file from local storage into the viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/35._Click_on_the_Import_DICOM_icon.png",
+          "instruction": "Click on the Import DICOM icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open DICOM import dialog",
+              "bbox": [
+                0.45,
+                5.75,
+                2.68,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/37._Select_the_DICOM_from_the_Local_Directory.png",
+          "instruction": "Select the DICOM file from the local directory",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select DICOM file to import",
+              "bbox": [
+                73.66,
+                21.43,
+                2.23,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/38._Select_the_DICOM_and_click_on_Open_button.png",
+          "instruction": {
+            "text": [
+              "Select the DICOM file",
+              "Click on the Open button"
+            ]
+          },
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select DICOM file",
+              "bbox": [
+                38.39,
+                51.19,
+                7.81,
+                2.58
+              ]
+            },
+            {
+              "type": "click",
+              "target": "Open the selected DICOM file",
+              "bbox": [
+                58.04,
+                66.87,
+                4.91,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/Weasis/39._Click_on_the_import_and_close_button_to_import_the_selected_DICOM.png",
+          "instruction": "Click on the Import and Close button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Finalize DICOM import",
+              "bbox": [
+                61.27,
+                78.57,
+                7.92,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Set the DICOM viewer zoom to Actual Pixel Size.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/44._Click_on_the_Select_Zoom_Type_Icon.png",
+          "instruction": "Click on the Select Zoom Type icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open zoom type drop-down menu",
+              "bbox": [
+                49.11,
+                10.91,
+                3.13,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/46._Select_the_actual_pixel_size_option_from_the_drop_down.png",
+          "instruction": "Select the Actual Pixel Size option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set zoom to Actual Pixel Size",
+              "bbox": [
+                49.67,
+                17.26,
+                9.93,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Enable the magnifying lens over the DICOM frame.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/48._Click_on_the_Show_Magnifying_lens_Icon.png",
+          "instruction": "Click on the Show Magnifying Lens icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activate magnifying lens on DICOM",
+              "bbox": [
+                52.68,
+                11.11,
+                2.68,
+                5.36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Access all DICOM attributes through the viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/51._Click_on_the_Open_DICOM_information_Icon.png",
+          "instruction": "Click on the DICOM Information icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open DICOM information menu",
+              "bbox": [
+                56.14,
+                10.52,
+                2.79,
+                5.36
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/52._Access_the_DICOM_attribute_menu.png",
+          "instruction": "Access the limited DICOM attributes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open limited DICOM attribute menu",
+              "bbox": [
+                31.81,
+                21.23,
+                11.05,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/53._Click_on_the_all_attributes_menu.png",
+          "instruction": "Click on the All Attributes menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open all DICOM attributes",
+              "bbox": [
+                42.97,
+                21.23,
+                9.71,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/Weasis/54._Access_the_all_attributes_of_DICOM.png",
+          "instruction": "Access all DICOM attributes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View all DICOM attributes",
+              "bbox": [
+                42.97,
+                21.23,
+                9.6,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Generate sagittal and coronal planes from the selected DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/55._Click_on_build_oblique_MPR_from_the_selected_view.png",
+          "instruction": "Click on Build Oblique MPR",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Generate sagittal and coronal planes",
+              "bbox": [
+                62.5,
+                6.35,
+                2.34,
+                4.56
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Apply the Cardiac LUT to the DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/58._Click_on_the_LUT_selection_icon.png",
+          "instruction": "Click on the LUT Selection icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open LUT selection menu",
+              "bbox": [
+                62.5,
+                11.11,
+                3.35,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/59._Select_Cardiac_option_from_the_drop_down_menu.png",
+          "instruction": "Select the Cardiac option from the LUT menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Apply Cardiac LUT to DICOM",
+              "bbox": [
+                63.5,
+                12.9,
+                28.24,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Apply the Fire LUT to the DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/61._Click_on_the_LUT_selection_icon.png",
+          "instruction": "Click on the LUT Selection icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open LUT selection menu",
+              "bbox": [
+                62.61,
+                11.31,
+                3.35,
+                5.16
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/62._Select_Fire_option_from_the_drop_down_menu.png",
+          "instruction": "Select the Fire option from the LUT menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Apply Fire LUT to DICOM",
+              "bbox": [
+                63.17,
+                15.87,
+                29.24,
+                3.97
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Generate Max Intensity Projection (MIP) from the selected DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/64._Click_on_Build_MIP_from_selected_view_Icon.png",
+          "instruction": "Click on Build MIP from Selected View icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open Build MIP options",
+              "bbox": [
+                64.84,
+                6.94,
+                2.68,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/65._View_the_default_Max_Projection_of_the_DICOM.png",
+          "instruction": "Select the Max Projection option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select Max Projection for MIP",
+              "bbox": [
+                86.61,
+                30.95,
+                1.45,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/66._Click_on_the_close_button_on_the_MIP_options_menu.png",
+          "instruction": "Click the Close button to exit MIP options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Close MIP options menu",
+              "bbox": [
+                87.5,
+                81.75,
+                5.13,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Generate Mean projection MIP from the selected DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/67._Click_on_build_MIP_from_selected_view_icon.png",
+          "instruction": "Click on the Build MIP icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open Build MIP options",
+              "bbox": [
+                64.84,
+                6.35,
+                2.68,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/68._Access_the_Projection_Options_from_the_MIP_menu.png",
+          "instruction": "Open the projection options from MIP menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access Max projection (default) option",
+              "bbox": [
+                86.72,
+                30.75,
+                1.56,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/69._Select_the_Mean_option_from_the_Projection_values.png",
+          "instruction": "Select the Mean projection option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View DICOM in Mean projection",
+              "bbox": [
+                82.37,
+                30.36,
+                1.23,
+                2.18
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Generate Min projection MIP from the selected DICOM view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/70._Click_on_Build_MIP_from_the_selected_view_icon.png",
+          "instruction": "Click on the Build MIP icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open Build MIP options",
+              "bbox": [
+                65.18,
+                6.55,
+                2.12,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/71._Select_the_min_option_from_the_projection_values.png",
+          "instruction": "Select the Min projection option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View DICOM in Min projection",
+              "bbox": [
+                78.46,
+                30.75,
+                1.56,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/72._Close_the_MIP_options_menu.png",
+          "instruction": "Click the Close button to exit MIP options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Close MIP options menu",
+              "bbox": [
+                87.61,
+                80.95,
+                5.02,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export and save the current DICOM view as Original Image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/73._Click_on_the_Export_View_Icon.png",
+          "instruction": "Click on the Export View icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open Export View menu",
+              "bbox": [
+                9.6,
+                6.94,
+                2.34,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Weasis/74._Select_the_Original_Image_from_exporting_view_menu.png",
+          "instruction": "Select Original Image from the Exporting View menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Choose Original Image for export",
+              "bbox": [
+                37.5,
+                41.87,
+                1.56,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Weasis/75._Click_on_the_save_button_to_save_the_current_view.png",
+          "instruction": "Click on the Save button to save the view",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the exported DICOM view",
+              "bbox": [
+                49.44,
+                66.47,
+                5.02,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open DICOM in 3D viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Weasis/79._Click_on_the_Open_the_series_in_3D_viewer.png",
+          "instruction": "Click on the Open in 3D Viewer icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open DICOM in 3D viewer",
+              "bbox": [
+                68.3,
+                6.55,
+                2.34,
+                4.76
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

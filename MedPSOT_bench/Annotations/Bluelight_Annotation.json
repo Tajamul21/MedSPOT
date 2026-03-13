@@ -1,0 +1,501 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Split the screen into multiple viewing panels.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL4.png",
+          "instruction": "Click on the split screen layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the Screen",
+              "bbox": [
+                11.95,
+                1.38,
+                3.34,
+                5.53
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL5.png",
+          "instruction": "Select the 2X2 grid",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the Screen",
+              "bbox": [
+                12.23,
+                8.98,
+                4.17,
+                7.25
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Reduced ratio in Zoom layout icon.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL6.png",
+          "instruction": "Click on the Zoom layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image shown in zoom layout with reduced ratio.",
+              "bbox": [
+                23.35,
+                1.21,
+                3.43,
+                6.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL7.png",
+          "instruction": "Click the down arrow to decrease the ratio.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image shown in zoom layout with reduced ratio.",
+              "bbox": [
+                38.45,
+                10.23,
+                1.07,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Turn off Anti-Aliasing.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL8.png",
+          "instruction": "Click on the Zoom layout icon.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image displayed in zoom layout with Anti-Aliasing turned off.",
+              "bbox": [
+                23.44,
+                1.38,
+                3.15,
+                5.7
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL9.png",
+          "instruction": "Click on the Anti-Aliasing checkbox.",
+          "actions": []
+        }
+      ]
+    },
+    {
+      "task_overview": "Rotate the image to 90 degree left",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL10.png",
+          "instruction": "Click on the Transformation layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated 90 degree to the left",
+              "bbox": [
+                15.29,
+                0.35,
+                3.43,
+                6.39
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL11.png",
+          "instruction": "Click on the 90 degree rotate left icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated 90 degree to the left",
+              "bbox": [
+                18.9,
+                15.54,
+                3.52,
+                6.22
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open Image in the viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL1.png",
+          "instruction": "Click on Open File",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Upload the file to view",
+              "bbox": [
+                0.37,
+                0.52,
+                3.43,
+                7.43
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL2.png",
+          "instruction": "Select the file",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Upload the file to view",
+              "bbox": [
+                12.23,
+                22.97,
+                35.76,
+                2.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Bluelight/BL3.png",
+          "instruction": "Click 'Open' to open the file in the viewer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Upload the file in the viewer",
+              "bbox": [
+                35.67,
+                44.56,
+                5.56,
+                2.76
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Rotate the image to 90 degree right.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL12.png",
+          "instruction": "Click on the Transformation layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated 90 degree to the right.",
+              "bbox": [
+                15.38,
+                0.69,
+                3.15,
+                5.7
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL13.png",
+          "instruction": "Click on the 90 degree rotate right icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated 90 degree to the right.",
+              "bbox": [
+                22.7,
+                15.37,
+                3.24,
+                5.7
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the image vertically",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL16.png",
+          "instruction": "Click on the Transformation layout icon",
+          "actions": []
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL17.png",
+          "instruction": "Click on the vertically inverted icon .",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Invert the image vertically",
+              "bbox": [
+                15.38,
+                8.29,
+                3.15,
+                6.04
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the image horizontally.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL14.png",
+          "instruction": "Click on the Transformation layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Inverted Image",
+              "bbox": [
+                15.29,
+                0.69,
+                3.24,
+                6.04
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL15.png",
+          "instruction": "Click on the horizontaly inverted image ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Inverted Image",
+              "bbox": [
+                18.99,
+                8.29,
+                3.15,
+                5.87
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the color of the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL18.png",
+          "instruction": "Click on the color invert icon ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image color changed.",
+              "bbox": [
+                26.68,
+                0.69,
+                3.15,
+                6.04
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open the DICOM image tag..",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL19.png",
+          "instruction": "Click the DICOM Tag dropdown.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "DICOM Tag dropdown displayed",
+              "bbox": [
+                52.69,
+                0.45,
+                0.89,
+                6.45
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL20.png",
+          "instruction": "Click on the DICOM tag option in the dropdown",
+          "actions": [
+            {
+              "type": "click",
+              "target": "DICOM Tag dropdown displayed",
+              "bbox": [
+                49.29,
+                7.6,
+                10.19,
+                3.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add a text annotation to the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL21.png",
+          "instruction": "Click on the Measurement layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Marked Image",
+              "bbox": [
+                38.36,
+                1.04,
+                2.96,
+                6.04
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL22.png",
+          "instruction": "Click on the Text icon to open text field",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Marked Image",
+              "bbox": [
+                41.88,
+                21.42,
+                3.06,
+                5.7
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Bluelight/BL23.png",
+          "instruction": "Type in the textfield.",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Marked Image",
+              "bbox": [
+                3.43,
+                7.25,
+                12.41,
+                3.63
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/Bluelight/BL24.png",
+          "instruction": "Click anywhere in the image to mark ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Marked Image",
+              "bbox": [
+                31.78,
+                14.16,
+                47.71,
+                84.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Remove measurements.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Bluelight/BL25.png",
+          "instruction": "Click on the Measurement layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All measurements removed",
+              "bbox": [
+                38.08,
+                1.04,
+                3.52,
+                6.39
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Bluelight/BL26.png",
+          "instruction": "Click on the bin icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All measurements removed",
+              "bbox": [
+                37.24,
+                7.77,
+                3.34,
+                6.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Bluelight/BL27.png",
+          "instruction": "Click on the remove button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All measurements removed",
+              "bbox": [
+                39.28,
+                56.82,
+                5.84,
+                4.66
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

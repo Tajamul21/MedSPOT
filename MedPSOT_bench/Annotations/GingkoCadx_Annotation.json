@@ -1,0 +1,1234 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Open Image from the history layout icon.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC1.png",
+          "instruction": "Click on the history layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                35.64,
+                42.83,
+                4.71,
+                9.88
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC2.png",
+          "instruction": "Click on the Dropdowm icon to upload file",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                25.54,
+                22.64,
+                0.65,
+                2.54
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC3.png",
+          "instruction": "Click on the Open File button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                23.81,
+                25.21,
+                16.28,
+                2.9
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC4.png",
+          "instruction": "Click on the open button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                59.08,
+                71.7,
+                5.81,
+                2.54
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/GingkoCadx/GC5.png",
+          "instruction": "Click on the link button to link the file",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                56.12,
+                58.7,
+                5.7,
+                2.82
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "image_path": "Images/GingkoCadx/GC6.png",
+          "instruction": "Click on the file name to open it in the viewer",
+          "actions": [
+            {
+              "type": "double_click",
+              "target": "Image opened in the viewer",
+              "bbox": [
+                23.56,
+                48.59,
+                53.22,
+                2.47
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export and Save Image",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC7.png",
+          "instruction": "Click on the File layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Exported and Saved",
+              "bbox": [
+                0.11,
+                2.47,
+                2.1,
+                2.2
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC8.png",
+          "instruction": "Click on Export Image ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Exported and Saved",
+              "bbox": [
+                0.28,
+                32.4,
+                21.02,
+                2.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC9.png",
+          "instruction": "Click on the Accept button to accept the format",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Exported and Saved",
+              "bbox": [
+                65.36,
+                82.25,
+                5.74,
+                2.55
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC10.png",
+          "instruction": "Click on the save button the save the export",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Exported and Saved",
+              "bbox": [
+                56.17,
+                70.84,
+                5.79,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save The snapshot as new Series.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC11.png",
+          "instruction": "Click on the File layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saved the snapshot as new series",
+              "bbox": [
+                0.37,
+                2.91,
+                2.1,
+                2.29
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC12.png",
+          "instruction": "Click on the save snapshot button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saved the snapshot as new series",
+              "bbox": [
+                0.67,
+                29.83,
+                20.61,
+                2.79
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC13.png",
+          "instruction": "Click on the accept button to save the snapshot",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saved the snapshot as new series",
+              "bbox": [
+                59.8,
+                61.29,
+                5.7,
+                2.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add an angle measurement annotation to the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC14.png",
+          "instruction": "Click the angle dropdown layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Angle annotated on the image",
+              "bbox": [
+                17.34,
+                8.69,
+                0.66,
+                2.36
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC15.png",
+          "instruction": "Select Cobb Angle",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Angle annotated on the image",
+              "bbox": [
+                15.61,
+                13.84,
+                15.81,
+                2.8
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC16.png",
+          "instruction": "Drag the cursor to mark angle onto the image.",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Angle annotated on the image",
+              "bbox": [
+                29.36,
+                11.7,
+                48.8,
+                81.71
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add a text annotation to the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC17.png",
+          "instruction": "Click on the notepad layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Text annotated on the image",
+              "bbox": [
+                18.73,
+                8.59,
+                1.42,
+                2.42
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC18.png",
+          "instruction": "click anywhere on the image to write ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Text annotated on the image",
+              "bbox": [
+                29.46,
+                12.03,
+                48.9,
+                81.05
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC19.png",
+          "instruction": "Input the message",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Text annotated on the image",
+              "bbox": [
+                45.66,
+                47.12,
+                16.59,
+                11.04
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC20.png",
+          "instruction": "Click on the Accpet button to implement the text.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Text annotated on the image",
+              "bbox": [
+                54.57,
+                62.18,
+                3.7,
+                2.4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Annotate a shape on the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC21.png",
+          "instruction": "Click on the shapes dropdown layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Annotated a trapezoid at the selected position on the image",
+              "bbox": [
+                22.09,
+                8.57,
+                0.6,
+                2.33
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC22.png",
+          "instruction": "Select the trapezoid option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Annotated a trapezoid at the selected position on the image",
+              "bbox": [
+                20.42,
+                18.62,
+                8.84,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC23.png",
+          "instruction": "Drag any where on the image to draw at the position",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Annotated a trapezoid at the selected position on the image",
+              "bbox": [
+                29.46,
+                11.53,
+                48.61,
+                82.54
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open Image from the history layout icon in the viewer screen.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC32.png",
+          "instruction": "Click on History layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Opened another image from history",
+              "bbox": [
+                98.03,
+                8.48,
+                1.44,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC33.png",
+          "instruction": "Double click on the patient name",
+          "actions": [
+            {
+              "type": "double_click",
+              "target": "Opened another image from history",
+              "bbox": [
+                23.47,
+                53.71,
+                53.12,
+                2.14
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Activate corner annotations.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "click on the view/eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activated Corner Annotations",
+              "bbox": [
+                0.75,
+                93.8,
+                1.5,
+                2.35
+              ]
+            },
+            {
+              "type": "click",
+              "target": "Activated Corner Annotations",
+              "bbox": [
+                4.73,
+                2.43,
+                2.53,
+                2.28
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC34.png",
+          "instruction": "Select Corner annotations button ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Activated Corner Annotations",
+              "bbox": [
+                0.69,
+                87.97,
+                17.09,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Reset measurements.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "Click on the view(eye) layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Settings have been reset",
+              "bbox": [
+                0.77,
+                93.81,
+                1.42,
+                2.45
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC35.png",
+          "instruction": "Select the reset button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Settings have been reset",
+              "bbox": [
+                0.76,
+                90.74,
+                17.0,
+                2.54
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open DICOM Inspector.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC36.png",
+          "instruction": "Click on the tool layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Opened DICOM inspector.",
+              "bbox": [
+                10.21,
+                2.47,
+                3.04,
+                2.31
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC37.png",
+          "instruction": "Select DICOM inspector button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Opened DICOM inspector.",
+              "bbox": [
+                10.41,
+                4.78,
+                16.59,
+                3.13
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Rotate the image by 90 Degree counter-clockwise.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "Click on the eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated by 90 Degree counter-clockwise",
+              "bbox": [
+                0.77,
+                93.86,
+                1.46,
+                2.24
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC25.png",
+          "instruction": "Select 90 degree counter-clockwise",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image rotated by 90 Degree counter-clockwise",
+              "bbox": [
+                0.79,
+                67.05,
+                17.09,
+                3.29
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Undo the Rotation and Flip of the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "Click on the eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Rotation and Flip have been undone",
+              "bbox": [
+                0.88,
+                93.9,
+                1.37,
+                2.47
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC26.png",
+          "instruction": "Select the undo rotate and flip button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Rotation and flip have been undone",
+              "bbox": [
+                0.98,
+                64.09,
+                16.59,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the image horizontally.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "Click on the eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image is flipped horizontally",
+              "bbox": [
+                0.9,
+                93.98,
+                1.22,
+                1.94
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC27.png",
+          "instruction": "Select the flip horizontal button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image is flipped horizontally",
+              "bbox": [
+                1.18,
+                73.64,
+                16.4,
+                2.64
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the image vertically.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "click on the eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image flipped vertically",
+              "bbox": [
+                0.77,
+                93.82,
+                1.45,
+                2.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC28.png",
+          "instruction": "Select the flip vertical button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image flipped vertically",
+              "bbox": [
+                0.98,
+                75.95,
+                16.4,
+                2.64
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View Software in full screen.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC38.png",
+          "instruction": "Select the tool in the panel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the software in full screen",
+              "bbox": [
+                4.79,
+                2.65,
+                2.73,
+                2.09
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC39.png",
+          "instruction": "Select the full screen button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the software in full screen",
+              "bbox": [
+                5.01,
+                4.61,
+                12.86,
+                3.46
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Detach the current image from the screen.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC38.png",
+          "instruction": "Select view in the panel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Detached image view from the screen.",
+              "bbox": [
+                4.71,
+                2.57,
+                2.66,
+                2.26
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC40.png",
+          "instruction": "Select the detached view button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Detached image view from the screen.",
+              "bbox": [
+                5.01,
+                12.03,
+                12.77,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Attach the current image back to the screen.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC41.png",
+          "instruction": "click on the view in panel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Attached view back to the screen",
+              "bbox": [
+                4.81,
+                2.31,
+                2.85,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC42.png",
+          "instruction": "Select on the attach view button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Attached view back to the screen",
+              "bbox": [
+                5.01,
+                14.17,
+                12.86,
+                3.29
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Clear History.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC50.png",
+          "instruction": "Click on the remove dropdown",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All history cleared",
+              "bbox": [
+                35.01,
+                22.73,
+                0.71,
+                2.39
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC53.png",
+          "instruction": "Select the Clear history option from the dropdown",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All history cleared",
+              "bbox": [
+                33.29,
+                27.68,
+                10.21,
+                2.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC54.png",
+          "instruction": "Click on the remove button to ensure history deletion",
+          "actions": [
+            {
+              "type": "click",
+              "target": "All history cleared",
+              "bbox": [
+                55.38,
+                58.65,
+                5.7,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Configure Image Grid.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC24.png",
+          "instruction": "click on the eye layout icon",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Grid configured",
+              "bbox": [
+                0.88,
+                93.74,
+                1.28,
+                2.47
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC29.png",
+          "instruction": "Select the Metric grid option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Grid configured",
+              "bbox": [
+                1.37,
+                79.74,
+                15.91,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC30.png",
+          "instruction": "Select the configure Grid option",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Grid configured",
+              "bbox": [
+                17.87,
+                82.21,
+                12.18,
+                2.8
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC31.png",
+          "instruction": "click on OK to save changes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image Grid configured",
+              "bbox": [
+                51.06,
+                56.01,
+                5.79,
+                2.47
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Blur the pixels.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC43.png",
+          "instruction": "Select the series in the panel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Blurred Pixels",
+              "bbox": [
+                7.36,
+                2.47,
+                3.04,
+                2.31
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC44.png",
+          "instruction": "Select the pixel blurring button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Blurred Pixels",
+              "bbox": [
+                7.66,
+                34.1,
+                16.79,
+                2.8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Undo the Blurred pixels.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC43.png",
+          "instruction": "Click on the series in the panel",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Blurred pixels undone",
+              "bbox": [
+                7.36,
+                2.47,
+                3.14,
+                2.31
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC45.png",
+          "instruction": "Select the unset pixel blurring button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Blurred pixels undone",
+              "bbox": [
+                7.86,
+                33.94,
+                16.4,
+                2.97
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export the anonimyzed patient file.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC55.png",
+          "instruction": "Click on the 'Liliane Thea' file name",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Export the anonimyzed patient image",
+              "bbox": [
+                23.57,
+                39.87,
+                53.32,
+                2.8
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC46.png",
+          "instruction": "Check the 'Patient Id' checkbox",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Export the anonimyzed patient image",
+              "bbox": [
+                32.8,
+                48.76,
+                0.79,
+                1.48
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC47.png",
+          "instruction": "Click on the Patient's name and surname checkbox",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Export the anonimyzed patient image",
+              "bbox": [
+                50.67,
+                48.93,
+                0.79,
+                1.32
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC48.png",
+          "instruction": "Click on the export button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Export the anonimyzed patient image",
+              "bbox": [
+                56.36,
+                61.61,
+                5.7,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/GingkoCadx/GC49.png",
+          "instruction": "Click on the Select folder button to save the anonimyzed image in a folder",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Export the anonimyzed patient image",
+              "bbox": [
+                65.4,
+                88.14,
+                6.97,
+                2.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Remove a patient from history.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/GingkoCadx/GC55.png",
+          "instruction": "Click on 'Liliane Thea' patient file ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Removed patient file name from history",
+              "bbox": [
+                23.76,
+                39.87,
+                52.83,
+                2.8
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/GingkoCadx/GC50.png",
+          "instruction": "Click on the Remove dropdown",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Removed patient file name from history",
+              "bbox": [
+                35.04,
+                22.67,
+                0.61,
+                2.43
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/GingkoCadx/GC51.png",
+          "instruction": "Select the Remove option from the dropdown",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Removed patient file name from history",
+              "bbox": [
+                33.48,
+                25.21,
+                9.92,
+                2.8
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/GingkoCadx/GC52.png",
+          "instruction": "click on the Remove button to ensure deletion",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Removed patient file name from history",
+              "bbox": [
+                55.28,
+                58.81,
+                5.79,
+                2.47
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

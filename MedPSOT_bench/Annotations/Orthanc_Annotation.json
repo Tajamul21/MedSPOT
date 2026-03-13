@@ -1,0 +1,449 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Open file in Orthanc Viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(1).png",
+          "instruction": "Expand the patient information section in the viewer.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "expand_patient_button",
+              "bbox": [
+                22.35,
+                16.93,
+                27.15,
+                3.04
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(2).png",
+          "instruction": "Click on 'View in Stone' to open the imaging study.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "view_stone_button",
+              "bbox": [
+                84.28,
+                31.22,
+                2.35,
+                4.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Orthanc/GM(3).png",
+          "instruction": "Click on 'Close' to proceed to the next step.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "close_button",
+              "bbox": [
+                48.71,
+                71.62,
+                2.59,
+                3.67
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Print study image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(4).png",
+          "instruction": "Click on print from the top panel.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "top_panel_print_icon",
+              "bbox": [
+                93.63,
+                0.44,
+                1.56,
+                3.07
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(5).png",
+          "instruction": "Click on print near the cancel button to confirm printing.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_print_button",
+              "bbox": [
+                73.07,
+                74.37,
+                3.58,
+                4.13
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Enable linear interpolation.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(8).png",
+          "instruction": "Click on your preference.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "preferences_menu",
+              "bbox": [
+                98.34,
+                1.09,
+                1.45,
+                3.28
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(6).png",
+          "instruction": "Click on enable linear interpolation checklist.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "linear_interpolation_checkbox",
+              "bbox": [
+                50.39,
+                68.69,
+                0.45,
+                1.1
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Orthanc/GM(7).png",
+          "instruction": "Click on apply to confirm.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "apply_button",
+              "bbox": [
+                48.54,
+                77.51,
+                2.68,
+                3.49
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Enable software rendering.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(9).png",
+          "instruction": "Click on user preference.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "user_preferences_menu",
+              "bbox": [
+                98.18,
+                0.65,
+                1.79,
+                3.49
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(10).png",
+          "instruction": "Click on software rendering checklist.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "software_rendering_checkbox",
+              "bbox": [
+                61.12,
+                71.76,
+                0.67,
+                1.74
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Orthanc/GM(11).png",
+          "instruction": "Click on apply to confirm.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "apply_button",
+              "bbox": [
+                48.49,
+                77.15,
+                2.79,
+                3.72
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open study image in viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(12).png",
+          "instruction": "Expand patient information.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "expand_patient_button",
+              "bbox": [
+                28.27,
+                16.96,
+                29.27,
+                2.61
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(13).png",
+          "instruction": "Click on view in OHIF button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "view_ohif_button",
+              "bbox": [
+                87.54,
+                31.32,
+                2.01,
+                4.75
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Download study as zip.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(14).png",
+          "instruction": "Expand the patient information.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "expand_patient_button",
+              "bbox": [
+                28.27,
+                17.0,
+                21.68,
+                2.61
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(15).png",
+          "instruction": "Click on download zip file button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "download_zip_button",
+              "bbox": [
+                84.36,
+                37.54,
+                2.23,
+                4.53
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Set two-image horizontal layout.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(16).png",
+          "instruction": "Click on change layout button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "change_layout_button",
+              "bbox": [
+                63.35,
+                0.66,
+                2.12,
+                2.84
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(17).png",
+          "instruction": "Click on two horizontal image button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "two_horizontal_layout_button",
+              "bbox": [
+                59.04,
+                5.45,
+                1.34,
+                3.05
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Set four-image layout.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(18).png",
+          "instruction": "Click on change layout button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "change_layout_button",
+              "bbox": [
+                63.49,
+                0.44,
+                1.9,
+                3.49
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(19).png",
+          "instruction": "Click on four image layout button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "four_image_layout_button",
+              "bbox": [
+                63.69,
+                4.79,
+                1.56,
+                3.48
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Anonymize study.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(20).png",
+          "instruction": "Click on the Anonymize button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "initial_anonymize_button",
+              "bbox": [93.74, 37.54, 2.35, 4.53]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(21).png",
+          "instruction": "Click inside the Information Box to enter study info.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "information_input_box",
+              "bbox": [47.37, 32.7, 15.2, 3.49]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Orthanc/GM(22).png",
+          "instruction": "Click the final Anonymize button to confirm.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_anonymize_button",
+              "bbox": [68.51, 67.39, 6.26, 4.78]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Update patient sex.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/Orthanc/GM(23).png",
+          "instruction": "Click on the Modify button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "modify_button",
+              "bbox": [93.74, 37.62, 2.23, 4.76]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/Orthanc/GM(24).png",
+          "instruction": "Click on the Patient Sex input or dropdown.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "patient_sex_field",
+              "bbox": [47.07, 28.04, 14.54, 3.7]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/Orthanc/GM(25).png",
+          "instruction": "Click the final Anonymize button to confirm.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "submit_button",
+              "bbox": [68.49, 67.63, 6.48, 4.57]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

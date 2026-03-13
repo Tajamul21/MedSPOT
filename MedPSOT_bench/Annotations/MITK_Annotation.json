@@ -1,0 +1,1642 @@
+{
+  "tasks": [
+    {
+      "task_overview": "View the MITK workbench welcome tips",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_274.png",
+          "instruction": "View the tips from the welcome menu of MITK workbench",
+          "actions": [
+            {
+              "type": "click",
+              "target": "MITK workbench welcome tips",
+              "bbox": [
+                57.03,
+                50.79,
+                9.04,
+                6.15
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_275.png",
+          "instruction": "Click the 'Next tip' widget from the welcome menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "MITK workbench welcome tips",
+              "bbox": [
+                57.14,
+                51.59,
+                9.04,
+                4.96
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import data files into the standard display.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_276.png",
+          "instruction": "Open data files by clicking the 'Open file' widget from the toolbar. ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open data file in the standard display from local storage",
+              "bbox": [
+                1.12,
+                10.52,
+                6.36,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_277.png",
+          "instruction": "Select the data file that you want to view",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open data file in the standard display from local storage",
+              "bbox": [
+                12.28,
+                36.9,
+                36.72,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_278.png",
+          "instruction": "Open the selected file by clicking the 'Open' button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open data file in the standard display from local storage",
+              "bbox": [
+                37.05,
+                56.35,
+                5.25,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_279.png",
+          "instruction": "Confirm the file reading options and choose the file reader",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Choose the file reader and  Open data file in the standard display",
+              "bbox": [
+                50.45,
+                53.37,
+                2.68,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the content of the Data Manager",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_280.png",
+          "instruction": "Save the project by clicking on the 'save project' in the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save content of data manager as '.mitk' project file",
+              "bbox": [
+                7.59,
+                10.32,
+                7.59,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_281.png",
+          "instruction": "Type the file name ",
+          "actions": [
+            {
+              "type": "type",
+              "target": "Save content of data manager as '.mitk' project file",
+              "bbox": [
+                8.93,
+                43.06,
+                40.62,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_282.png",
+          "instruction": "Confirm saving the project to local storage as '.mitk' file",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save content of data manager as '.mitk' project file",
+              "bbox": [
+                36.61,
+                55.95,
+                5.8,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Close the project",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_283.png",
+          "instruction": "Close the project to remove data objects from the application",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Closing the project",
+              "bbox": [
+                15.18,
+                10.32,
+                8.04,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_284.png",
+          "instruction": "Confirm the closing of the project which removes all the current data",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Closing the project",
+              "bbox": [
+                59.6,
+                50.79,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import DICOM data using DICOM browser",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_285.png",
+          "instruction": "Click on the DICOM widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open DICOM browser",
+              "bbox": [
+                32.59,
+                10.12,
+                5.47,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_286.png",
+          "instruction": "click the 'scan directory' from the DICOM browser menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Scan the local directory",
+              "bbox": [
+                23.21,
+                25.4,
+                8.04,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_287.png",
+          "instruction": "Import the DICOM from the local directory",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing DICOM",
+              "bbox": [
+                36.05,
+                55.56,
+                5.92,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_288.png",
+          "instruction": "Select the patient name or DICOM to study",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the DICOM to study in the viewer",
+              "bbox": [
+                23.33,
+                35.12,
+                43.19,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MITK/Screenshot_289.png",
+          "instruction": "View the selected Study or DICOM",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the DICOM",
+              "bbox": [
+                41.63,
+                25.2,
+                4.8,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Query or retrieve the items from the DICOM database",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_290.png",
+          "instruction": "Query or retrieve the items from the DICOM database",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Query or retrieve the items.",
+              "bbox": [
+                37.5,
+                19.05,
+                9.38,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_291.png",
+          "instruction": "Select the server or database",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Query or retrieve the items from the DICOM database",
+              "bbox": [
+                26.23,
+                39.68,
+                24.0,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_292.png",
+          "instruction": "Query the selected servers or databases",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Query or retrieve the items from the DICOM database",
+              "bbox": [
+                23.55,
+                78.57,
+                43.86,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_293.png",
+          "instruction": "Close the Query/Retrieve menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Query or retrieve the items from the DICOM database",
+              "bbox": [
+                22.88,
+                84.92,
+                46.21,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the properties of the Data",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_294.png",
+          "instruction": "Access the data options by clicking on the 'Data' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Accessing the Data menu",
+              "bbox": [
+                66.74,
+                9.92,
+                2.57,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_295.png",
+          "instruction": "From the data menu, select the properties",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the properties of the data",
+              "bbox": [
+                66.96,
+                9.52,
+                2.57,
+                3.97
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the pixel values of the current data using data options",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_296.png",
+          "instruction": "Select the Data option from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the different data options",
+              "bbox": [
+                66.63,
+                9.52,
+                3.46,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_297.png",
+          "instruction": "Select the Pixel value from the data menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the pixel values of the current data",
+              "bbox": [
+                64.4,
+                13.49,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Inspect the DICOM using DICOM inspector",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_298.png",
+          "instruction": "Select the data option from the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the different data options",
+              "bbox": [
+                66.41,
+                9.33,
+                3.91,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_299.png",
+          "instruction": "Select the DICOM Inspector from the data menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Inspect the DICOM",
+              "bbox": [
+                66.85,
+                13.29,
+                2.68,
+                4.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "use Undo/Redo inspector from general menu",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_300.png",
+          "instruction": "click the general widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the general menu",
+              "bbox": [
+                70.42,
+                9.72,
+                5.02,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_301.png",
+          "instruction": "Select the Undo/Redo inspector from the general menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "use Undo/Redo inspector",
+              "bbox": [
+                67.41,
+                13.29,
+                2.46,
+                3.77
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Screenshot the Standard display using screenshot maker",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_302.png",
+          "instruction": "Select the General menu from the Toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "view the General menu options",
+              "bbox": [
+                70.2,
+                9.52,
+                4.8,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_303.png",
+          "instruction": "Select the 'Screenshot Maker' option from the General options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Screenshot the Standard display",
+              "bbox": [
+                69.53,
+                13.1,
+                2.57,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_304.png",
+          "instruction": "Select the 'Single plane' from the 2D screenshots options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the Single Plane screenshot",
+              "bbox": [
+                70.87,
+                22.42,
+                13.5,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_305.png",
+          "instruction": "Save the screenshot to the local storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saving the screenshot",
+              "bbox": [
+                36.38,
+                54.96,
+                5.58,
+                3.77
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Saving the multiplanar screenshot using screenshot maker",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_306.png",
+          "instruction": "Select the multiplanar screenshot option in screenshot maker menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saving the multiplanar screenshot",
+              "bbox": [
+                84.49,
+                22.22,
+                13.39,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_307.png",
+          "instruction": "Select the Folder for storing multiplanar screenshot",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saving the multiplanar screenshot",
+              "bbox": [
+                34.82,
+                55.36,
+                6.92,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Using the screenshot maker to take 3D screenshot of the Display",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_308.png",
+          "instruction": "Open the General Options menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Using the screenshot maker to save screenshot",
+              "bbox": [
+                70.2,
+                9.13,
+                5.02,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_309.png",
+          "instruction": "Open the Screenshot Maker from the General options menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Using the screenshot maker to screenshot the standard display",
+              "bbox": [
+                69.53,
+                13.49,
+                2.57,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_310.png",
+          "instruction": "Select the Coronal Component from the available planes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Using the screenshot maker to save screenshot of the Standard display",
+              "bbox": [
+                70.98,
+                30.16,
+                26.79,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_311.png",
+          "instruction": "Select the single plane from 3D screenshots",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Using the screenshot maker to screenshot the Display",
+              "bbox": [
+                70.87,
+                36.51,
+                13.62,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MITK/Screenshot_312.png",
+          "instruction": "Confirm saving the 3D screenshot into the local storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Using the screenshot maker to save screenshot",
+              "bbox": [
+                36.16,
+                54.56,
+                6.03,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Remeshing of the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_313.png",
+          "instruction": "Open the General Menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access General Menu options",
+              "bbox": [
+                70.2,
+                9.33,
+                4.91,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_314.png",
+          "instruction": "Select Remeshing option from the General Menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Remeshing of the DICOM",
+              "bbox": [
+                71.76,
+                13.1,
+                2.79,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_315.png",
+          "instruction": "Select the surface of DICOM for remeshing",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the surface",
+              "bbox": [
+                74.77,
+                18.25,
+                23.88,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_316.png",
+          "instruction": "Confirm the DICOM surface selection",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Remeshing of DICOM",
+              "bbox": [
+                68.19,
+                80.75,
+                2.34,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Select a particular DICOM surface for Remeshing",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_317.png",
+          "instruction": "Select the DICOM surface to be remeshed",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Remeshing the DICOM surface",
+              "bbox": [
+                75,
+                18.65,
+                23.66,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_318.png",
+          "instruction": "Select rendering tree from the Data Node",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To select the DICOM surface for remeshing",
+              "bbox": [
+                31.03,
+                16.47,
+                8.82,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_319.png",
+          "instruction": "Confirm selecting the surface ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "DICOM surface remeshing",
+              "bbox": [
+                67.97,
+                80.16,
+                2.57,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Modify the python settings for virtual environment",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_320.png",
+          "instruction": "Select the General menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the general menu options",
+              "bbox": [
+                70.09,
+                9.52,
+                5.13,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_321.png",
+          "instruction": "Select the python settings from the general menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select python settings for virtual environment",
+              "bbox": [
+                67.08,
+                17.06,
+                2.79,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_322.png",
+          "instruction": "Refresh the virtual environments with the modified python settings",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Refresh the virtual environments",
+              "bbox": [
+                62.5,
+                87.9,
+                5.47,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Point set interaction on DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_323.png",
+          "instruction": "Select the General Menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the general menu",
+              "bbox": [
+                70.31,
+                8.93,
+                4.91,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_324.png",
+          "instruction": "select the point set interaction from general menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Point set interaction on DICOM",
+              "bbox": [
+                69.75,
+                18.06,
+                2.23,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_325.png",
+          "instruction": "select the point set from the point set interaction",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Point set interaction on DICOM",
+              "bbox": [
+                77.23,
+                18.85,
+                21.54,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_326.png",
+          "instruction": "Confirm the selection of the point set.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selection of the point set.",
+              "bbox": [
+                67.86,
+                80.56,
+                2.9,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add new point set for point set interaction",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_327.png",
+          "instruction": "Add new point set to the point set interaction",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Add new point set",
+              "bbox": [
+                70.09,
+                24.4,
+                28.79,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_328.png",
+          "instruction": "Confirm the addition of new point set",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Add new point set",
+              "bbox": [
+                48.77,
+                51.19,
+                2.57,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_329.png",
+          "instruction": "Select the point set for point set interaction",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Point set interaction",
+              "bbox": [
+                77.23,
+                19.05,
+                19.75,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_330.png",
+          "instruction": "confirm the selection of point set from the simple list",
+          "actions": [
+            {
+              "type": "click",
+              "target": "point set interaction",
+              "bbox": [
+                68.08,
+                80.16,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Record the Standard Display using movie maker",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_331.png",
+          "instruction": "Open the General Menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the General Menu options",
+              "bbox": [
+                70.42,
+                9.52,
+                4.8,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_332.png",
+          "instruction": "Select the Movie Maker from the General menu options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Record the Standard Display",
+              "bbox": [
+                71.76,
+                17.46,
+                2.79,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_333.png",
+          "instruction": "Add animation to the movie maker scene",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Add animation",
+              "bbox": [
+                70.09,
+                30.75,
+                2.34,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_334.png",
+          "instruction": "Play the animation from the playback and recording menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Playing the animation",
+              "bbox": [
+                70.65,
+                64.88,
+                2.23,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MITK/Screenshot_335.png",
+          "instruction": "Stop the animation from the Playback and Recording menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Stopping the animation",
+              "bbox": [
+                73.21,
+                65.28,
+                2.34,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Volume visualization in standard display",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_336.png",
+          "instruction": "From the general menu in view navigator, select the volume visualization",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Volume visualization in standard display",
+              "bbox": [
+                70.31,
+                52.38,
+                27.12,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_337.png",
+          "instruction": "Select the DICOM for the volume visualization",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Volume visualization of the DICOM",
+              "bbox": [
+                76.45,
+                19.05,
+                20.87,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_338.png",
+          "instruction": "Confirm selection of the DICOM from the Image volume menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Volume visualization of DICOM",
+              "bbox": [
+                68.08,
+                80.56,
+                2.46,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View logging information",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_339.png",
+          "instruction": "Select the Logging widget from the General menu in the view navigator",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View logging information",
+              "bbox": [
+                70.2,
+                33.53,
+                27.46,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Cropping the image from the standard display using image cropper",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_340.png",
+          "instruction": "Open the general menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the general menu options",
+              "bbox": [
+                70.09,
+                9.13,
+                5.36,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_341.png",
+          "instruction": "Select the Image cropper from the General Menu options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Cropping the image from the standard display",
+              "bbox": [
+                69.75,
+                21.43,
+                2.79,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_342.png",
+          "instruction": "Select the bounding box for image cropping",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image cropping",
+              "bbox": [
+                76.79,
+                27.58,
+                18.3,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_343.png",
+          "instruction": "Confirm the selection of the data from the data storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Image cropping",
+              "bbox": [
+                68.3,
+                80.56,
+                2.23,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Using the registration visualizer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_344.png",
+          "instruction": "Open the registration menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the registration menu options",
+              "bbox": [
+                85.94,
+                9.13,
+                7.03,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_345.png",
+          "instruction": "Select the matchpoint registration visualizer from the registration options",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open Registration visualizer",
+              "bbox": [
+                87.17,
+                9.33,
+                2.57,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_346.png",
+          "instruction": "Select the registration for the visualization",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting registration for visualization",
+              "bbox": [
+                69.64,
+                23.81,
+                29.13,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_347.png",
+          "instruction": "Confirm selection of data for the registration visualizer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting data for visualization",
+              "bbox": [
+                67.97,
+                80.16,
+                2.79,
+                4.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Using MatchPoint Registration Manipulator",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_348.png",
+          "instruction": "Select the registration menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the registration menu options",
+              "bbox": [
+                86.27,
+                9.13,
+                6.58,
+                4.56
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_349.png",
+          "instruction": "Select the MatchPoint Registration Manipulator from the registration ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open MatchPoint Registration Manipulator",
+              "bbox": [
+                89.62,
+                8.93,
+                2.79,
+                4.96
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_350.png",
+          "instruction": "Select the registration from the Source registration menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the registration",
+              "bbox": [
+                70.2,
+                23.21,
+                16.52,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_351.png",
+          "instruction": "Select the Base Registration",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Base Registration selection",
+              "bbox": [
+                70.54,
+                26.79,
+                26.9,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MITK/Screenshot_352.png",
+          "instruction": "Confirm data selection from the Data storage ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "MatchPoint registration manipulator on the DICOM",
+              "bbox": [
+                68.08,
+                80.16,
+                2.57,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Using MatchPoint registration evaluator",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MITK/Screenshot_353.png",
+          "instruction": "Select the Registration menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the Registration menu",
+              "bbox": [
+                86.38,
+                9.52,
+                6.47,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MITK/Screenshot_354.png",
+          "instruction": "Select MatchPoint registration evaluator from the registration menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Open MatchPoint registration evaluator",
+              "bbox": [
+                82.03,
+                13.1,
+                2.79,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MITK/Screenshot_355.png",
+          "instruction": "Select the 'Autoselect images by registration'",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Autoselect images by registration",
+              "bbox": [
+                69.53,
+                25,
+                29.58,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MITK/Screenshot_357.png",
+          "instruction": "Select the moving image",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting image for registration evaluator",
+              "bbox": [
+                69.53,
+                30.95,
+                29.58,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MITK/Screenshot_358.png",
+          "instruction": "Select the moving image",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the image for evaluator",
+              "bbox": [
+                23.66,
+                24.01,
+                51.12,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "image_path": "Images/MITK/Screenshot_359.png",
+          "instruction": "Confirm selection of the image",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the image for evaluator",
+              "bbox": [
+                67.86,
+                79.37,
+                3.01,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "image_path": "Images/MITK/Screenshot_360.png",
+          "instruction": "Select the Target Image for evaluator",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the target image",
+              "bbox": [
+                69.87,
+                38.89,
+                29.02,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 8,
+          "image_path": "Images/MITK/Screenshot_361.png",
+          "instruction": "Select the target image for evaluator",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selecting the target image",
+              "bbox": [
+                24.11,
+                24.4,
+                50.45,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 9,
+          "image_path": "Images/MITK/Screenshot_362.png",
+          "instruction": "Confirm the selection of the target image",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Selection of the target image",
+              "bbox": [
+                67.86,
+                80.16,
+                2.79,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 10,
+          "image_path": "Images/MITK/Screenshot_363.png",
+          "instruction": "start the evaluation of the selected images",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Evaluation of the selected Images",
+              "bbox": [
+                69.87,
+                43.45,
+                29.24,
+                3.97
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

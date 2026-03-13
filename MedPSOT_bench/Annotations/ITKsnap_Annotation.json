@@ -1,0 +1,1090 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Open a main DICOM image series in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_1.png",
+          "instruction": "Click on the 'File' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.22,
+                2.83,
+                2.01,
+                1.89
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_2.png",
+          "instruction": "Click on 'Open Main Image...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open_main_image_option",
+              "bbox": [
+                0.78,
+                5.61,
+                19.01,
+                1.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_3.png",
+          "instruction": "Click on the 'Browse...' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "browse_button",
+              "bbox": [
+                53.87,
+                44.36,
+                4.92,
+                2.44
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/ITKsnap/MI_4.png",
+          "instruction": "Select the DICOM file from the file explorer.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "select_dicom_file",
+              "bbox": [
+                45.03,
+                46.75,
+                9.16,
+                2.25
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/ITKsnap/MI_5.png",
+          "instruction": "Click on the 'Open' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open_explorer_button",
+              "bbox": [
+                69.73,
+                77.86,
+                5.03,
+                2.06
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "image_path": "Images/ITKsnap/MI_6.png",
+          "instruction": "Click on the 'Next >' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "next_button",
+              "bbox": [
+                54.41,
+                66.39,
+                4.47,
+                1.88
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "image_path": "Images/ITKsnap/MI_7.png",
+          "instruction": "Click on the 'Next >' button to confirm the series.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "next_button_confirm",
+              "bbox": [
+                54.3,
+                65.94,
+                4.8,
+                2.83
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 8,
+          "image_path": "Images/ITKsnap/MI_8.png",
+          "instruction": "Click on the 'Finish' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "finish_button",
+              "bbox": [
+                54.3,
+                65.9,
+                4.92,
+                2.63
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Check for software updates in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_9.png",
+          "instruction": "Click on the 'Help' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "help_menu",
+              "bbox": [
+                19.11,
+                2.63,
+                2.23,
+                2.44
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_10.png",
+          "instruction": "Click on 'Check for Updates'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "check_updates_option",
+              "bbox": [
+                19.11,
+                8.44,
+                14.3,
+                2.25
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_11.png",
+          "instruction": "Click on the 'OK' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "ok_button",
+              "bbox": [
+                53.74,
+                51.44,
+                5.03,
+                2.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the image metadata in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_12.png",
+          "instruction": "Click on the 'Tools' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                16.09,
+                2.63,
+                2.68,
+                2.44
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_13.png",
+          "instruction": "Click on 'Image Inspector'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "image_inspector_option",
+              "bbox": [
+                16.54,
+                5.45,
+                21.35,
+                2.44
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_14.png",
+          "instruction": "Click on the 'Metadata' tab.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "metadata_tab",
+              "bbox": [
+                59.12,
+                21.62,
+                4.81,
+                2.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Auto-adjust the image contrast in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_15.png",
+          "instruction": "Click on the 'Tools' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.98,
+                2.63,
+                2.79,
+                2.63
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_16.png",
+          "instruction": "Hover over 'Image Contrast'.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "image_contrast_menu",
+              "bbox": [
+                16.32,
+                8.47,
+                21.13,
+                2.26
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_17.png",
+          "instruction": "Click on 'Auto-Adjust Contrast (all layers)'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "auto_adjust_option",
+              "bbox": [
+                37.88,
+                11.07,
+                19.33,
+                2.44
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Reset the image contrast in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_18.png",
+          "instruction": "Click on the 'Tools' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.98,
+                2.82,
+                2.79,
+                2.44
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_19.png",
+          "instruction": "Hover over 'Image Contrast'.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "image_contrast_menu",
+              "bbox": [
+                16.31,
+                8.46,
+                21.23,
+                2.45
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_20.png",
+          "instruction": "Click on 'Reset Contrast (all layers)'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "reset_contrast_option",
+              "bbox": [
+                37.88,
+                13.92,
+                19.44,
+                2.26
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export an image slice as a PNG file.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_21.png",
+          "instruction": "Click on the 'File' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.11,
+                3.0,
+                2.35,
+                1.88
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_22.png",
+          "instruction": "Hover over 'Export'.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "export_menu",
+              "bbox": [
+                0.56,
+                22.56,
+                19.22,
+                2.63
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_23.png",
+          "instruction": "Hover over 'Image Slice'.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "image_slice_submenu",
+              "bbox": [
+                20.13,
+                22.89,
+                10.17,
+                2.25
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/ITKsnap/MI_24.png",
+          "instruction": "Click on 'Axial'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "axial_export_option",
+              "bbox": [
+                30.73,
+                22.93,
+                7.26,
+                2.26
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/ITKsnap/MI_25.png",
+          "instruction": "Click 'OK' in the Save Slice dialog.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "ok_save_button",
+              "bbox": [
+                51.08,
+                59.21,
+                5.14,
+                2.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save a segmentation image in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_26.png",
+          "instruction": "Click on the 'Segmentation' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "segmentation_menu",
+              "bbox": [
+                5.05,
+                2.63,
+                6.41,
+                2.45
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_27.png",
+          "instruction": "Select 'Save Segmentation Image...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "save_segmentation_option",
+              "bbox": [
+                5.52,
+                11.23,
+                22.3,
+                2.45
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_28.png",
+          "instruction": "Click the 'Finish' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "finish_button",
+              "bbox": [
+                54.3,
+                65.9,
+                4.92,
+                2.63
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Adjust the image zoom level to 1x in ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_29.png",
+          "instruction": "Click on the magnifying glass icon in the left toolbar to open the Zoom Inspector.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "zoom_inspector_icon",
+              "bbox": [
+                10.51,
+                6.42,
+                2.5,
+                2.72
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_30.png",
+          "instruction": "Select the '1x' zoom level in the Zoom Inspector.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "zoom_1x_button",
+              "bbox": [
+                2.35,
+                31.96,
+                2.14,
+                2.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Quit ITK-SNAP.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_31.png",
+          "instruction": "Click 'File'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.14,
+                2.4,
+                2.28,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_32.png",
+          "instruction": "Select 'Quit'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "quit_option",
+              "bbox": [
+                0.43,
+                34.02,
+                19.52,
+                2.64
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Zoom to fit all views.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_33.png",
+          "instruction": "Click 'Edit'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "edit_menu",
+              "bbox": [
+                2.56,
+                2.39,
+                2.42,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_34.png",
+          "instruction": "Hover 'Views'.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "views_menu",
+              "bbox": [
+                2.71,
+                19.14,
+                24.09,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_35.png",
+          "instruction": "Click 'Zoom to Fit in All Views'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "zoom_fit",
+              "bbox": [
+                27.35,
+                19.42,
+                16.67,
+                2.64
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Select a specific segmentation label.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_36.png",
+          "instruction": "Locate 'Segmentation Labels' panel.",
+          "actions": [
+            {
+              "type": "hover",
+              "target": "labels_list",
+              "bbox": [
+                4.99,
+                2.64,
+                5.98,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_37.png",
+          "instruction": "Click 'Label 2' to select.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "label_2",
+              "bbox": [
+                0.85,
+                71.6,
+                9.26,
+                2.63
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open Label Editor.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_38.png",
+          "instruction": "Click 'Segmentation'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "seg_menu",
+              "bbox": [
+                4.84,
+                2.39,
+                6.13,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_39.png",
+          "instruction": "Select 'Label Editor...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "editor_option",
+              "bbox": [
+                4.99,
+                25.37,
+                21.65,
+                2.87
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Interpolate labels between slices.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_40.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                16.24,
+                2.64,
+                2.71,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_41.png",
+          "instruction": "Select 'Interpolate Labels...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "interpolate_option",
+              "bbox": [
+                16.24,
+                33.54,
+                21.79,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_42.png",
+          "instruction": "Click 'Interpolate' button.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "interpolate_btn",
+              "bbox": [
+                38.63,
+                80.29,
+                21.24,
+                2.88
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Access Application Preferences.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_43.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                16.1,
+                2.39,
+                2.85,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_44.png",
+          "instruction": "Select 'Preferences...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "pref_option",
+              "bbox": [
+                16.24,
+                39.53,
+                21.65,
+                2.4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Access Distributed Segmentation Service.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_45.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.95,
+                2.64,
+                2.99,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_46.png",
+          "instruction": "Select 'Distributed Segmentation Service...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "dss_option",
+              "bbox": [
+                16.38,
+                30.91,
+                21.37,
+                2.16
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Initiate Free Rotation.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_47.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.81,
+                2.39,
+                2.99,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_48.png",
+          "instruction": "Select 'Image Free Rotation...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "rotation_option",
+              "bbox": [
+                16.24,
+                24.89,
+                21.65,
+                3.11
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Reorient the image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_49.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.95,
+                2.64,
+                2.99,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_50.png",
+          "instruction": "Select 'Reorient Image...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "reorient_option",
+              "bbox": [
+                16.24,
+                22.28,
+                21.51,
+                2.4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Auto-adjust contrast via Image Information.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_51.png",
+          "instruction": "Click 'Tools'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tools_menu",
+              "bbox": [
+                15.96,
+                2.64,
+                2.99,
+                2.64
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_52.png",
+          "instruction": "Select 'Image Information'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "info_option",
+              "bbox": [
+                16.24,
+                13.64,
+                21.52,
+                2.39
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/ITKsnap/MI_53.png",
+          "instruction": "Click 'Contrast' tab.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "contrast_tab",
+              "bbox": [
+                45.6,
+                21.53,
+                4.42,
+                2.63
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/ITKsnap/MI_54.png",
+          "instruction": "Click 'Auto'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "auto_btn",
+              "bbox": [
+                64.82,
+                32.85,
+                3.42,
+                2.64
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export segmentation as Surface Mesh.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_55.png",
+          "instruction": "Click 'Segmentation' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "seg_menu",
+              "bbox": [
+                4.99,
+                2.64,
+                5.98,
+                2.4
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_56.png",
+          "instruction": "Select 'Export as Surface Mesh...'.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "mesh_option",
+              "bbox": [
+                4.99,
+                19.9,
+                21.51,
+                2.4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Calculate Volumes and Statistics.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/ITKsnap/MI_57.png",
+          "instruction": "Click on the 'Segmentation' menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "segmentation_menu",
+              "bbox": [
+                4.99,
+                2.4,
+                5.84,
+                2.87
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/ITKsnap/MI_58.png",
+          "instruction": "Select 'Volumes and Statistics' from the list.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "volumes_stats_option",
+              "bbox": [
+                4.84,
+                31.39,
+                21.65,
+                2.4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

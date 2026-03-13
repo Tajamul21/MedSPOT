@@ -1,0 +1,949 @@
+{
+  "tasks": [
+    {
+      "task_overview": "Import new DICOM.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(1).png",
+          "instruction": "Click on the File menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.22,
+                0.39,
+                2.79,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(2).png",
+          "instruction": "Click on 'Open' to browse files.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open_option",
+              "bbox": [
+                1.12,
+                11.03,
+                18.1,
+                2.9
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(3).png",
+          "instruction": "Select the desired DICOM file from the file explorer.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "select_file",
+              "bbox": [
+                12.4,
+                18.23,
+                4.02,
+                2.33
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MicroDicom/MD_(4).png",
+          "instruction": "Click on the Open button to complete the import.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_open_button",
+              "bbox": [
+                36.65,
+                49.24,
+                4.69,
+                2.33
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Reset image preset to default.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(5).png",
+          "instruction": "Click on the image preset dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "preset_dropdown",
+              "bbox": [
+                72.85,
+                4.64,
+                0.89,
+                1.55
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(6).png",
+          "instruction": "Select 'Default' to reset the image view.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "default_preset_option",
+              "bbox": [
+                64.58,
+                7.13,
+                3.24,
+                0.96
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open network activity.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(7).png",
+          "instruction": "Click on 'Network' in the top menu bar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "network_menu",
+              "bbox": [
+                3.02,
+                0.39,
+                3.46,
+                2.9
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(8).png",
+          "instruction": "Select 'Network activity' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "network_activity_option",
+              "bbox": [
+                4.13,
+                20.48,
+                8.16,
+                2.12
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Copy image to clipboard.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(9).png",
+          "instruction": "Click on 'Image' in the top menu bar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "image_menu",
+              "bbox": [
+                15.31,
+                0.39,
+                2.57,
+                2.32
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(10).png",
+          "instruction": "Select 'Copy image to clipboard' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "copy_to_clipboard_option",
+              "bbox": [
+                16.98,
+                29.27,
+                7.49,
+                2.52
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Sort patient by date.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(11).png",
+          "instruction": "Click on the 'Sort' dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "sort_dropdown",
+              "bbox": [
+                7.38,
+                16.44,
+                1.9,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(12).png",
+          "instruction": "Choose 'Date' from the sorting options.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "sort_by_date_option",
+              "bbox": [
+                9.16,
+                23.61,
+                2.79,
+                2.32
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Sort patient by name.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(13).png",
+          "instruction": "Click on the sort button to open options.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "sort_button",
+              "bbox": [
+                7.04,
+                16.67,
+                2.24,
+                2.33
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(14).png",
+          "instruction": "Click on 'Name' to reorder the patient list.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "sort_by_name_option",
+              "bbox": [
+                8.38,
+                20.13,
+                4.25,
+                2.52
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open duplicate window.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(15).png",
+          "instruction": "Click on the File menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                1.01,
+                0.97,
+                1.56,
+                1.93
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(16).png",
+          "instruction": "Select 'Open duplicate window' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open_duplicate_window_option",
+              "bbox": [
+                3.13,
+                7.35,
+                7.37,
+                2.52
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export images to text file.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(17).png",
+          "instruction": "Click on the File menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                1.01,
+                0.58,
+                1.57,
+                2.33
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(18).png",
+          "instruction": "Hover over or click 'Export' in the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "export_menu_option",
+              "bbox": [
+                2.46,
+                33.08,
+                5.48,
+                1.74
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(19).png",
+          "instruction": "Select 'To text file...' from the export sub-menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "to_text_file_option",
+              "bbox": [
+                21.9,
+                43.5,
+                5.25,
+                1.36
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MicroDicom/MD_(20).png",
+          "instruction": "Click on the Export button in the dialog box to finish.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_export_button",
+              "bbox": [
+                54.77,
+                62.09,
+                4.02,
+                1.74
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Check for software updates.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(21).png",
+          "instruction": "Click on the Help menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "help_menu",
+              "bbox": [
+                29.83,
+                0.78,
+                1.9,
+                1.94
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(22).png",
+          "instruction": "Select 'Check for updates' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "check_updates_option",
+              "bbox": [
+                31.06,
+                19.97,
+                8.49,
+                1.55
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(23).png",
+          "instruction": "Click on 'Close' to exit the update dialog.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "close_update_button",
+              "bbox": [
+                56.76,
+                52.93,
+                4.36,
+                2.32
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Adjust image size (width and height).",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(24).png",
+          "instruction": "Click on the 'Image' menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "image_menu",
+              "bbox": [
+                15.54,
+                1.16,
+                2.46,
+                1.93
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(25).png",
+          "instruction": "Select 'Image size' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "image_size_option",
+              "bbox": [
+                16.66,
+                25.19,
+                6.71,
+                2.52
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(26).png",
+          "instruction": "Enter the desired value into the Width input field.",
+          "actions": [
+            {
+              "type": "type",
+              "target": "width_input_field",
+              "bbox": [
+                44.25,
+                43.66,
+                3.13,
+                1.55
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MicroDicom/MD_(27).png",
+          "instruction": "Enter the desired value into the Height input field.",
+          "actions": [
+            {
+              "type": "type",
+              "target": "height_input_field",
+              "bbox": [
+                53.11,
+                43.69,
+                2.46,
+                1.36
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MicroDicom/MD_(28).png",
+          "instruction": "Click 'OK' to apply the new dimensions.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_size_button",
+              "bbox": [
+                49.5,
+                56.51,
+                3.35,
+                1.55
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Print current image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(29).png",
+          "instruction": "Click on the Print icon in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "print_icon",
+              "bbox": [
+                16.31,
+                4.06,
+                1.79,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(30).png",
+          "instruction": "Click on the Print button in the confirmation popup.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "confirm_print_button",
+              "bbox": [
+                54.19,
+                63.17,
+                3.58,
+                2.32
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export DICOM tags to a text file.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(31).png",
+          "instruction": "Click on 'Edit' and select 'Tag editor' from the menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tag_editor_menu_option",
+              "bbox": [
+                98.34,
+                13.76,
+                1.56,
+                2.13
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(32).png",
+          "instruction": "Click 'OK' on the initial editor popup.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "initial_popup_ok_button",
+              "bbox": [
+                56.56,
+                53.19,
+                4.58,
+                1.74
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(33).png",
+          "instruction": "Click on the 'Export' button within the tag editor window.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tag_export_button",
+              "bbox": [
+                27.93,
+                71.6,
+                4.13,
+                2.32
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MicroDicom/MD_(34).png",
+          "instruction": "Select 'Text file' as the export format.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "text_file_format_option",
+              "bbox": [
+                29.39,
+                74.62,
+                6.26,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MicroDicom/MD_(35).png",
+          "instruction": "Click 'Select Folder' to finalize the file export.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "select_folder_button",
+              "bbox": [
+                62.01,
+                73.5,
+                6.15,
+                2.32
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export DICOM tags to a CSV file.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(36).png",
+          "instruction": "Click on 'Edit' and select 'Tag editor' from the menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tag_editor_menu_option",
+              "bbox": [
+                63.84,
+                68.22,
+                5.81,
+                2.33
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(37).png",
+          "instruction": "Click 'OK' on the initial editor popup.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "initial_popup_ok_button",
+              "bbox": [
+                98.21,
+                13.88,
+                1.79,
+                2.16
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(38).png",
+          "instruction": "Click on the 'Export' button within the tag editor window.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "tag_export_button",
+              "bbox": [
+                56.78,
+                52.61,
+                3.91,
+                2.13
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/MicroDicom/MD_(39).png",
+          "instruction": "Select 'CSV file' as the export format.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "csv_file_format_option",
+              "bbox": [
+                30.07,
+                62.48,
+                3.91,
+                1.93
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/MicroDicom/MD_(40).png",
+          "instruction": "Click 'Select Folder' to finalize the CSV export.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "select_folder_button",
+              "bbox": [
+                31.17,
+                69.35,
+                11.28,
+                2.51
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Export current study as a video.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(41).png",
+          "instruction": "Click on the Export Video icon in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "export_video_icon",
+              "bbox": [
+                12.07,
+                4.06,
+                1.68,
+                2.71
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(42).png",
+          "instruction": "Click on the final Export button in the save dialog.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "final_export_button",
+              "bbox": [
+                54.86,
+                66.88,
+                4.02,
+                2.13
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Open print preview for the current image.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(43).png",
+          "instruction": "Click on the File menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.78,
+                0.19,
+                1.9,
+                2.71
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(44).png",
+          "instruction": "Select 'Print preview' from the dropdown menu.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "print_preview_option",
+              "bbox": [
+                1.01,
+                51.64,
+                18.67,
+                2.9
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change image preset to Bone.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(45).png",
+          "instruction": "Click on the custom preset dropdown menu in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "preset_dropdown",
+              "bbox": [
+                73.07,
+                4.64,
+                0.78,
+                1.94
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(46).png",
+          "instruction": "Select 'Bone' from the list of available presets.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "bone_preset_option",
+              "bbox": [
+                64.28,
+                15.7,
+                9.39,
+                1.16
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change image preset to Spine.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(47).png",
+          "instruction": "Click on the custom preset dropdown menu in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "preset_dropdown",
+              "bbox": [
+                72.96,
+                4.45,
+                1.12,
+                2.13
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(48).png",
+          "instruction": "Select 'Spine' from the list of available presets.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "spine_preset_option",
+              "bbox": [
+                64.36,
+                16.87,
+                9.27,
+                1.55
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the current image horizontally.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(49).png",
+          "instruction": "Click on the Flip Horizontal icon in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "flip_horizontal_icon",
+              "bbox": [
+                85.59,
+                3.87,
+                1.45,
+                2.71
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Flip the current image vertically.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(50).png",
+          "instruction": "Click on the Flip Vertical icon in the toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "flip_vertical_icon",
+              "bbox": [
+                87.55,
+                4.08,
+                1.79,
+                2.91
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

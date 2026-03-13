@@ -1,0 +1,1512 @@
+{
+  "tasks": [
+    {
+      "task_overview": "View the sample data in the DICOM viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_118.png",
+          "instruction": "Click on the 'Download Sample Data' button from the welcome menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To access the sample data in the 3D slicer",
+              "bbox": [
+                15.18,
+                27.98,
+                14.84,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_119.png",
+          "instruction": "Click on the sample data you wish to download",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Access the sample data",
+              "bbox": [
+                0.45,
+                26.98,
+                9.6,
+                13.29
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add Data into the scene",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_120.png",
+          "instruction": "Click on the 'Add Data' widget ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing data into the scene",
+              "bbox": [
+                0.78,
+                7.94,
+                1.9,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_121.png",
+          "instruction": "Click on the 'Choose the files to add' button ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Adding data into the scene",
+              "bbox": [
+                38.84,
+                32.94,
+                6.81,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_122.png",
+          "instruction": "Click on the 'open' button",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Importing data into the scene",
+              "bbox": [
+                36.16,
+                55.36,
+                5.8,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import DICOM data and view it in the DICOM viewer.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_123.png",
+          "instruction": "Click on the 'DICOM module' icon to import DICOM data into the scene",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Load DICOM datasets into the scene",
+              "bbox": [
+                2.79,
+                8.33,
+                1.9,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_124.png",
+          "instruction": "Click on the 'Patient entry' from the DICOM database",
+          "actions": [
+            {
+              "type": "double_click",
+              "target": "Load DICOM datasets into the scene",
+              "bbox": [
+                31.7,
+                22.22,
+                67.3,
+                2.38
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the scene or individual dataset from the current view.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_125.png",
+          "instruction": "Click on the 'Save Data' widget to save the scene",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To save the scene or individual datasets",
+              "bbox": [
+                4.91,
+                7.94,
+                1.79,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_126.png",
+          "instruction": "Click on the 'Change directory' icon to select the folder",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To save a scene or individual dataset into a particular folder",
+              "bbox": [
+                64.62,
+                42.86,
+                1.56,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_127.png",
+          "instruction": "Click on the 'Select Folder' icon ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save a scene into a particular folder",
+              "bbox": [
+                68.42,
+                84.13,
+                7.03,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_128.png",
+          "instruction": "Click on the 'save' button to save the scene",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Saving a scene into a particular folder",
+              "bbox": [
+                57.37,
+                59.92,
+                4.35,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add extensions to the 3D slicer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_129.png",
+          "instruction": "Click on the 'Install extensions' from the welcome menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Install extensions for examining the DICOM",
+              "bbox": [
+                0.22,
+                23.41,
+                14.84,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_130.png",
+          "instruction": "Click on the 'Install' button for the particular extension",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Install extensions for examining the DICOM",
+              "bbox": [
+                15.74,
+                47.82,
+                11.61,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Add DICOM data into the DICOM database",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_131.png",
+          "instruction": "Select the 'Add DICOM data' module from the drop-down module list",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Adding DICOM data into the DICOM database",
+              "bbox": [
+                12.72,
+                8.33,
+                11.16,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_132.png",
+          "instruction": "click on the 'Add DICOM data' module from the drop-down menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Adding DICOM data into the DICOM database",
+              "bbox": [
+                12.61,
+                13.29,
+                13.17,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_133.png",
+          "instruction": "Import files into DICOM database by clicking on the 'Import DICOM files'",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Adding DICOM data into the DICOM database",
+              "bbox": [
+                0.22,
+                19.84,
+                14.96,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_134.png",
+          "instruction": "click on the import button to add the DICOM data",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Adding DICOM data into the DICOM database",
+              "bbox": [
+                36.38,
+                54.96,
+                5.58,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Use line markup to measure the length on DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_135.png",
+          "instruction": "Click on the 'Module list' drop-down menu to select Markup module.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create a Line Markup on the DICOM data",
+              "bbox": [
+                12.72,
+                8.13,
+                11.16,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_136.png",
+          "instruction": "Click on the Markup module from the drop-down",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create a Line Markup on the DICOM data",
+              "bbox": [
+                12.5,
+                15.28,
+                13.06,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_137.png",
+          "instruction": "Click on the 'Line' widget from the 'create markups' menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create a Line Markup on the DICOM data",
+              "bbox": [
+                7.7,
+                22.22,
+                7.48,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_138.png",
+          "instruction": "Drag the mouse to draw the line",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Create a Line Markup on the DICOM data",
+              "bbox": [
+                43.64,
+                29.76,
+                9.49,
+                3.57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Delete the selected Drawing from the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_139.png",
+          "instruction": "Right click on the mouse to select the line",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected line from the DICOM data scene",
+              "bbox": [
+                43.75,
+                30.36,
+                8.93,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_140.png",
+          "instruction": "Click on the 'Delete Line' button to delete the line from the scene",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Delete the selected line from the DICOM data scene",
+              "bbox": [
+                48.33,
+                35.71,
+                13.73,
+                2.38
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Measure the angle on DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_141.png",
+          "instruction": "Click on the 'Module list' drop-down menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create Angle Markup from the 'Create Markups' Menu",
+              "bbox": [
+                12.72,
+                8.53,
+                10.94,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_142.png",
+          "instruction": "Select the 'Markup Module' from the module list",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create Angle Markup from the 'Create Markups' Menu",
+              "bbox": [
+                12.61,
+                15.28,
+                12.83,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_143.png",
+          "instruction": "Click on the Angle widget from the 'create markups' menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Create Angle Markup from the 'Create Markups' Menu",
+              "bbox": [
+                15.18,
+                22.22,
+                7.37,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_144.png",
+          "instruction": "Drag the mouse to create an angle on the DICOM ",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Create Angle Markup on the DICOM data",
+              "bbox": [
+                44.64,
+                26.98,
+                8.15,
+                12.9
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Interact with the angle markup",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_145.png",
+          "instruction": "Right click on the Angle Markup on the DICOM data",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Interact with the Angle Markup on the DICOM",
+              "bbox": [
+                43.19,
+                25,
+                9.49,
+                13.29
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_146.png",
+          "instruction": "Click on the 'Interaction' button from the options menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Interact with the Angle Markup on the DICOM",
+              "bbox": [
+                47.66,
+                43.65,
+                13.5,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_147.png",
+          "instruction": "Drag the circular tool for interaction with the angle markup",
+          "actions": [
+            {
+              "type": "drag",
+              "target": "Interact with the Angle Markup on the DICOM data",
+              "bbox": [
+                41.07,
+                28.77,
+                9.49,
+                16.27
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Display DICOM in different presets",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_148.png",
+          "instruction": "Click on the 'volumes' widget from the toolbar to display volumes in different presets",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in different presets",
+              "bbox": [
+                33.04,
+                7.94,
+                2.01,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_149.png",
+          "instruction": "Click on the 'CT-bone' widget from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in CT-Bone preset",
+              "bbox": [
+                1.9,
+                45.24,
+                2.68,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_150.png",
+          "instruction": "Click on the 'CT-Air' widget from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in CT-Air preset",
+              "bbox": [
+                6.14,
+                45.24,
+                2.68,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_151.png",
+          "instruction": "Click on the 'CT-Brain' widget from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in CT-Brain presets",
+              "bbox": [
+                10.27,
+                45.24,
+                2.79,
+                4.76
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/3DSlicer/Screenshot_152.png",
+          "instruction": "Click on the 'CT-Abdomen' preset from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in CT-Abdomen presets",
+              "bbox": [
+                14.62,
+                45.24,
+                2.46,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "image_path": "Images/3DSlicer/Screenshot_153.png",
+          "instruction": "Click on the 'CT-Lung' preset from the presets menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Display DICOM data volume in CT-Lung presets",
+              "bbox": [
+                18.75,
+                45.24,
+                2.57,
+                4.76
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Select the Layout of the DICOM viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_154.png",
+          "instruction": "Click on the 'Layout selection' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the layout for the DICOM viewer",
+              "bbox": [
+                49.67,
+                6.55,
+                2.12,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_155.png",
+          "instruction": "Select the 'Conventional' Layout from the drop-down layout menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the layout for the DICOM viewer",
+              "bbox": [
+                49.55,
+                10.12,
+                15.74,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the Layout of the DICOM viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_156.png",
+          "instruction": "Click on the 'Select Layout' widget from the toolbar to select the layout for the DICOM Viewer",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the layout for the DICOM Viewer",
+              "bbox": [
+                49.55,
+                6.35,
+                2.12,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_157.png",
+          "instruction": "Click on the 'Conventional Widescreen' button from the layout drop-down",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the 'Conventional Widescreen' layout for the DICOM Viewer",
+              "bbox": [
+                49.55,
+                12.7,
+                15.62,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change the Layout of the DICOM viewer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_158.png",
+          "instruction": "Click on the 'Layout selection' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the Layout of the DICOM viewer",
+              "bbox": [
+                49.55,
+                6.15,
+                2.34,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_159.png",
+          "instruction": "Select the 'Four-up plot' from the layout drop-down menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the layout of the DICOM viewer to 'Four-up plot'",
+              "bbox": [
+                49.33,
+                23.02,
+                15.85,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Toggle crosshair visibility",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_161.png",
+          "instruction": "Click on the 'Toggle crosshair visibility' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set the crosshair position in the DICOM data",
+              "bbox": [
+                57.48,
+                6.35,
+                2.34,
+                3.97
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Change appearance and function of the crosshair",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_162.png",
+          "instruction": "Click on the 'Toggle crosshair visibility' drop-down menu from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the appearance and the function of the crosshair",
+              "bbox": [
+                59.82,
+                6.55,
+                0.78,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_163.png",
+          "instruction": "Click on the 'Basic + intersection' button from the drop down menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Change the appearance and the function of the crosshair",
+              "bbox": [
+                57.37,
+                23.21,
+                14.62,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_164.png",
+          "instruction": "Click on the 'Crosshair visibility' widget from the toolbar menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the changed crosshair on the DICOM",
+              "bbox": [
+                57.37,
+                6.75,
+                2.23,
+                3.97
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Install extensions to the 3D slicer",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_165.png",
+          "instruction": "Raise the 'Extensions Manager' wizard from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Get the available extensions for the DICOM viewer in 3D slicer.",
+              "bbox": [
+                62.61,
+                6.75,
+                2.34,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_166.png",
+          "instruction": "Click on the 'install' button on the required extension",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Install the extension needed as per requirement.",
+              "bbox": [
+                25.89,
+                47.42,
+                13.73,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Capture the screenshot of the current view",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_167.png",
+          "instruction": "Click on the 'Capture screenshot' Widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Capture the layout of the DICOM data",
+              "bbox": [
+                96.99,
+                7.54,
+                2.12,
+                4.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_168.png",
+          "instruction": "Save the screenshot of the current layout",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the screenshot to the local directory",
+              "bbox": [
+                61.61,
+                44.44,
+                4.24,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_169.png",
+          "instruction": "Save the screenshot of the current layout to the local storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the screenshot to the local storage",
+              "bbox": [
+                69.75,
+                70.83,
+                5.58,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the current view as 3D view",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_170.png",
+          "instruction": "Click on the 'Capture Screenshot' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Capture the layout of the DICOM viewer",
+              "bbox": [
+                97.1,
+                7.34,
+                2.01,
+                4.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_171.png",
+          "instruction": "Change the thumbnail to 3D view from the Thumbnail menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the 3D view of the current layout of DICOM",
+              "bbox": [
+                33.93,
+                30.56,
+                9.04,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_172.png",
+          "instruction": "Click on the 'Save As' button from the screenshot menu to save the layout to local storage",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the 3D view to the local storage",
+              "bbox": [
+                61.61,
+                44.44,
+                4.46,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_173.png",
+          "instruction": "Click on the 'ok' button to close the dialogue",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the 3D view to the local storage",
+              "bbox": [
+                57.7,
+                71.43,
+                4.35,
+                2.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Save the current view of the DICOM as Red Slice View",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_174.png",
+          "instruction": "Click on the 'Capture Screenshot' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the current layout of the DICOM",
+              "bbox": [
+                97.21,
+                7.94,
+                1.9,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_175.png",
+          "instruction": "Change the format of the layout which you want to save",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the Red Slice View of the Current layout",
+              "bbox": [
+                34.04,
+                34.13,
+                11.05,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_176.png",
+          "instruction": "Click on the 'Save As' button to save the current",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the Red slice view of the layout to the local storage",
+              "bbox": [
+                61.61,
+                44.25,
+                4.35,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_177.png",
+          "instruction": "Click on the save button to save the current view of the layout",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Save the current view of the layout",
+              "bbox": [
+                69.87,
+                70.44,
+                5.58,
+                3.37
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/3DSlicer/Screenshot_178.png",
+          "instruction": "Click on the 'ok' button to close the screenshot annotation dialogue",
+          "actions": []
+        }
+      ]
+    },
+    {
+      "task_overview": "Switch to previously or next used module",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_179.png",
+          "instruction": "Click on the 'Back arrow' Icon on the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to previously used module",
+              "bbox": [
+                26.0,
+                7.94,
+                2.12,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_180.png",
+          "instruction": "Click on the 'Back arrow' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to previously used module",
+              "bbox": [
+                26.0,
+                7.94,
+                2.12,
+                3.77
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_181.png",
+          "instruction": "Click on the 'back arrow' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to previously used module",
+              "bbox": [
+                26.0,
+                7.94,
+                2.12,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_182.png",
+          "instruction": "Click on the 'back arrow' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to previously used module",
+              "bbox": [
+                26.0,
+                7.94,
+                2.12,
+                3.17
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/3DSlicer/Screenshot_183.png",
+          "instruction": "Click on the 'Forward arrow' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to the next used module",
+              "bbox": [
+                27.9,
+                7.54,
+                2.12,
+                3.57
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "image_path": "Images/3DSlicer/Screenshot_184.png",
+          "instruction": "Click on the 'Forward arrow' icon from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Switch to next used module",
+              "bbox": [
+                28.01,
+                7.94,
+                1.9,
+                3.17
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the slice Intersection in the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_185.png",
+          "instruction": "Toggle the slice intersection visibility from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the slice Intersection position in the DICOM",
+              "bbox": [
+                60.27,
+                7.94,
+                1.23,
+                3.97
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_186.png",
+          "instruction": "Select the interaction from the drop-down menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set mouse interaction with the slice intersection on the DICOM",
+              "bbox": [
+                58.48,
+                11.31,
+                11.16,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_187.png",
+          "instruction": "Click on the Slice intersection visibility from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Set slice intersection on the DICOM",
+              "bbox": [
+                58.48,
+                7.74,
+                1.9,
+                3.37
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "View the endoscopy information of the DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_188.png",
+          "instruction": "Click on the module list from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select a module from the module list",
+              "bbox": [
+                12.61,
+                8.33,
+                11.38,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_189.png",
+          "instruction": "Select the Endoscopy module from the drop-down",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the endoscopy information of the DICOM",
+              "bbox": [
+                12.39,
+                57.54,
+                13.17,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_190.png",
+          "instruction": "Click on the endoscopy module ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "View the endoscopy of the current DICOM",
+              "bbox": [
+                25.78,
+                57.94,
+                8.71,
+                1.98
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Import the diffusion weighted DICOM",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_191.png",
+          "instruction": "Click on the 'Module list' widget from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the module from the module list",
+              "bbox": [
+                12.61,
+                8.13,
+                11.27,
+                2.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_192.png",
+          "instruction": "Select the 'diffusion' module from the module list",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To import the diffusion weighted DICOM",
+              "bbox": [
+                12.5,
+                48.81,
+                12.95,
+                1.98
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_193.png",
+          "instruction": "Click on the 'import and export' button from the menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To import the diffusion weighted DICOM",
+              "bbox": [
+                25.45,
+                49.01,
+                10.04,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_194.png",
+          "instruction": "Click on the diffusion weighted DICOM wizard",
+          "actions": [
+            {
+              "type": "click",
+              "target": "To import the diffusion weighted DICOM",
+              "bbox": [
+                35.38,
+                49.21,
+                20.31,
+                2.18
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/3DSlicer/Screenshot_195.png",
+          "instruction": "Change the parameters from NiftiFSL to Nrrd ",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Diffusion parameters conversion",
+              "bbox": [
+                0.11,
+                42.06,
+                32.03,
+                2.78
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_overview": "Use the wizards module to compare the DICOM volumes",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/3DSlicer/Screenshot_196.png",
+          "instruction": "Select the module from the module list from the toolbar",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select a module from the module list",
+              "bbox": [
+                17.86,
+                10.91,
+                9.82,
+                2.58
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/3DSlicer/Screenshot_197.png",
+          "instruction": "Click on the 'wizards' button from the drop-down",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Select the wizards module",
+              "bbox": [
+                12.5,
+                37.5,
+                12.95,
+                2.38
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/3DSlicer/Screenshot_198.png",
+          "instruction": "Select the compare volumes from the wizards menu",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Compare the DICOM volumes",
+              "bbox": [
+                25.33,
+                37.3,
+                11.61,
+                2.78
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "image_path": "Images/3DSlicer/Screenshot_199.png",
+          "instruction": "Select all the volumes that we need to compare",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Compare DICOM volumes",
+              "bbox": [
+                7.7,
+                40.28,
+                11.61,
+                1.79
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "image_path": "Images/3DSlicer/Screenshot_200.png",
+          "instruction": "compare the selected volumes",
+          "actions": [
+            {
+              "type": "click",
+              "target": "Compare the selected DICOM volumes",
+              "bbox": [
+                0.33,
+                70.63,
+                31.47,
+                2.58
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
