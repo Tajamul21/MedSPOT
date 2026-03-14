@@ -1,22 +1,139 @@
-# MedSPOT-Bench
+<div align="center">
+<figure class="center-figure"> <img src="Media/medspot.jpeg" width="85%"></figure>
+</div>
 
-**MedSPOT-Bench** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software.
+<h1 align="left">
+    MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
+</h1>
+
+<div align="left">
+  [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=Hugging%20face)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
+</div>
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Metrics](#metrics)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Citation](#citation)
 
 ## Overview
 
-MedSPOT-Bench evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
-
-### Metrics
-- **TCA (Task Completion Accuracy)**: Fraction of tasks where ALL steps are completed correctly in sequence
-- **SHR (Step Hit Rate)**: Per-step accuracy across all evaluated steps  
-- **S1A (Step 1 Accuracy)**: Accuracy on the first step of each task
+**MedSPOT** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software.It evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
 
 ### Evaluation Protocol
 Tasks are evaluated **sequentially** — if a model fails a step, the task is terminated early. This reflects real-world GUI interaction where errors compound.
 
 ---
 
-## Evaluation Scripts
+### Metrics
+| Metric | Description |
+|--------|-------------|
+|**TCA** (Task Completion Accuracy)|Fraction of tasks where ALL steps are completed correctly in sequence|
+|**SHR** (Step Hit Rate)| Per-step accuracy across all evaluated steps  |
+|**S1A** (Step 1 Accuracy)| Accuracy on the first step of each task |
+
+
+
+---
+## Installations
+
+### Common Dependencies
+```bash
+pip install torch >= 2.0 transformers >= 4.40 pillow tqdm
+```
+Each model should be evaluated in its own recommended environment.  
+Follow the official setup instructions for the specific model you are evaluating.
+
+
+## Dataset Structure
+
+```
+MedSPOT-Bench/
+  Annotations/
+    3DSlicer_Annotation.json
+    DICOMscope_Annotation.json
+    Weasis_Annotation.json
+    ...
+  Images/
+    3DSlicer/
+    DICOMscope/
+    Weasis/
+    ...
+```
+Check out our [dataset](https://huggingface.co/datasets/Tajamul21/MedSPOT) here!
+
+### Annotation Format
+Each annotation JSON follows this format:
+```json
+{
+  "tasks": [
+    {
+      "task_overview": "Import new DICOM.",
+      "steps": [
+        {
+          "step_id": 1,
+          "image_path": "Images/MicroDicom/MD_(1).png",
+          "instruction": "Click on the File menu in the top toolbar.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "file_menu",
+              "bbox": [
+                0.22,
+                0.39,
+                2.79,
+                2.51
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "image_path": "Images/MicroDicom/MD_(2).png",
+          "instruction": "Click on 'Open' to browse files.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "open_option",
+              "bbox": [
+                1.12,
+                11.03,
+                18.1,
+                2.9
+              ]
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "image_path": "Images/MicroDicom/MD_(3).png",
+          "instruction": "Select the desired DICOM file from the file explorer.",
+          "actions": [
+            {
+              "type": "click",
+              "target": "select_file",
+              "bbox": [
+                12.4,
+                18.23,
+                4.02,
+                2.33
+              ]
+            }
+          ]
+        },
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## Evaluation
 
 Each script evaluates one model on the full benchmark. All scripts share the same interface:
 
@@ -42,74 +159,21 @@ Each script evaluates one model on the full benchmark. All scripts share the sam
 ## Usage
 
 ### HuggingFace Models
+Models are loaded directly from Hugging Face at runtime. Make sure you are logged i before running any evaluation
 ```bash
-python evaluate_gui_actor.py \
-    --model_name_or_path <hf_model_path> \
-    --data_dir           /path/to/Annotations \
-    --dataset_root       /path/to/MedSPOT-Bench \
-    --results_dir        /path/to/save/results
-```
+huggingface-cli login
+``` 
+
+For gated models, request access on the models HuggingFace page beforehand 
 
 ### OpenAI Models (GPT-5, GPT-4o-mini)
+Export your OpenAI API key before running evaluations:
 ```bash
 export OPENAI_API_KEY=your_api_key
 
-python evaluate_gpt5.py \
-    --data_dir     /path/to/Annotations \
-    --dataset_root /path/to/MedSPOT-Bench \
-    --results_dir  /path/to/save/results
 ```
 
 ---
-## Dataset
-The data will be available on HuggingFace at https://huggingface.co/datasets/anonymous009009/MedSPOT_Bench
-
-## Dataset Structure
-
-```
-MedSPOT-Bench/
-  Annotations/
-    3DSlicer_Annotation.json
-    DICOMscope_Annotation.json
-    Weasis_Annotation.json
-    ...
-  Images/
-    3DSlicer/
-    DICOMscope/
-    Weasis/
-    ...
-```
-
-Each annotation JSON follows this format:
-```json
-{
-  "tasks": [
-    {
-      "task_overview": "Delete the selected study from the browser menu",
-      "steps": [
-        {
-          "step_id": 1,
-          "image_path": "Images/DICOMscope/Screenshot_250.png",
-          "instruction": "Select a study from the Browser menu",
-          "actions": [{"type": "click", "bbox": [x%, y%, w%, h%]}]
-        }
-      ]
-    }
-  ]
-}
-```
-
----
-
-## Requirements
-
-Each model should be evaluated in its own recommended environment.  
-Please follow the official setup instructions for each model:
-
-Common dependencies across all environments:
-- `torch >= 2.0`
-- `transformers >= 4.40`
-- `pillow`, `tqdm`
 
 ## Results
 
@@ -126,12 +190,13 @@ results/
 
 ---
 
-## Citation
-
+## References
+Please cite our paper if you use our bechmark or code in your work:
 ```bibtex
 @article{medspot2026,
   title     = {MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI},
-  year      = {2026}
+  author    = {anonymous},
+  year      = {2026},
   note      = {Under review}
 }
 ```
