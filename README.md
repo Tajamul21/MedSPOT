@@ -1,5 +1,5 @@
 <div align="center">
-<figure class="center-figure"> <img src="Images/MedSPOT.png" width="85%"></figure>
+<figure class="center-figure"> <img src="Images/MedSPOT2.png" width="85%"></figure>
 </div>
 
 <h1 align="left">
@@ -7,7 +7,7 @@
 </h1>
 
 <div align="left">
-  [![Dataset](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=hugging%20face)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
+  [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
 </div>
 ---
 
@@ -15,7 +15,7 @@
 - [Overview](#overview)
 - [Metrics](#metrics)
 - [Installation](#installation)
-- [Dataset Structure](#dataset_structure)
+- [Dataset Structure](#dataset-structure)
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [References](#references)
@@ -25,11 +25,7 @@
 <figure class="center-figure"> <img src="Images/MedSPOT_pipeline.png" width="85%"></figure>
 </div>
 
-<h4 align="left">
-    Overview of the MedSPOT dataset construction and sequential evaluation pipeline.
-</h4>
-
-**MedSPOT** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software.It evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
+**MedSPOT** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software. It evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
 
 ### Evaluation Protocol
 Tasks are evaluated **sequentially** — if a model fails a step, the task is terminated early. This reflects real-world GUI interaction where errors compound.
@@ -46,11 +42,11 @@ Tasks are evaluated **sequentially** — if a model fails a step, the task is te
 
 
 ---
-## Installations
+## Installation
 
 ### Common Dependencies
 ```bash
-pip install torch >= 2.0 transformers >= 4.40 pillow tqdm
+pip install torch>=2.0 transformers>=4.40 pillow tqdm
 ```
 Each model should be evaluated in its own recommended environment.  
 Follow the official setup instructions for the specific model you are evaluating.
@@ -142,7 +138,7 @@ Each annotation JSON follows this format:
 
 ## Evaluation
 
-Each script evaluates one model on the full benchmark. All scripts share the same interface:
+🔬 Each script evaluates one model on the full benchmark. All scripts share the same interface:
 
 | Script | Model |
 |--------|-------|
@@ -163,15 +159,13 @@ Each script evaluates one model on the full benchmark. All scripts share the sam
 
 ---
 
-## Usage
-
 ### HuggingFace Models
-Models are loaded directly from Hugging Face at runtime. Make sure you are logged i before running any evaluation
+🤗 Models are loaded directly from Hugging Face at runtime. Make sure you are logged in before running any evaluation
 ```bash
 huggingface-cli login
 ``` 
 
-For gated models, request access on the models HuggingFace page beforehand 
+For gated models, request access on the model's HuggingFace page beforehand 
 
 ### OpenAI Models (GPT-5, GPT-4o-mini)
 Export your OpenAI API key before running evaluations:
@@ -184,7 +178,7 @@ export OPENAI_API_KEY=your_api_key
 
 ## Results
 
-Results are saved in the following structure:
+📊 Results are saved in the following structure:
 ```
 results/
   ModelName/
@@ -194,11 +188,14 @@ results/
       failure_statistics.json
     overall_dataset_metrics.json
 ```
+<div align="center">
+  <figure align="left"> <img src="Images/result_metrics.png" width="85%"> </figure>  
+</div>
 
 ---
 
 ## References
-Please cite our paper if you use our bechmark or code in your work:
+📝 Please cite our paper if you use our benchmark or code in your work:
 ```bibtex
 @article{medspot2026,
   title     = {MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI},
