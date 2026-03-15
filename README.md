@@ -1,5 +1,5 @@
 <div align="center">
-<figure class="center-figure"> <img src="Media/medspot.jpeg" width="85%"></figure>
+<figure class="center-figure"> <img src="Images/MedSPOT.png" width="85%"></figure>
 </div>
 
 <h1 align="left">
@@ -7,7 +7,7 @@
 </h1>
 
 <div align="left">
-  [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=Hugging%20face)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
+  [![Dataset](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=hugging%20face)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
 </div>
 ---
 
@@ -15,12 +15,19 @@
 - [Overview](#overview)
 - [Metrics](#metrics)
 - [Installation](#installation)
-- [Dataset](#dataset)
+- [Dataset Structure](#dataset_structure)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Citation](#citation)
+- [References](#references)
 
 ## Overview
+<div align="center">
+<figure class="center-figure"> <img src="Images/MedSPOT_pipeline.png" width="85%"></figure>
+</div>
+
+<h4 align="left">
+    Overview of the MedSPOT dataset construction and sequential evaluation pipeline.
+</h4>
 
 **MedSPOT** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software.It evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
 
@@ -64,7 +71,7 @@ MedSPOT-Bench/
     Weasis/
     ...
 ```
-Check out our [dataset](https://huggingface.co/datasets/Tajamul21/MedSPOT) here!
+📚 Check out our [dataset](https://huggingface.co/datasets/Tajamul21/MedSPOT) here!
 
 ### Annotation Format
 Each annotation JSON follows this format:
