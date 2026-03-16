@@ -1,14 +1,26 @@
 <div align="center">
-<figure class="center-figure"> <img src="Images/MedSPOT2.png" width="85%"></figure>
+  <img src="Images/MedSPOT2.png" width="85%" />
 </div>
 
-<h1 align="left">
+<h1 align="left" style="margin:24px 0;">
     MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
 </h1>
 
-<!-- <div align="left"> -->
-  [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
-<!-- </div> -->
+<div align="center">
+[![Dataset-HuggingFace](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
+</div>
+
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Metrics](#metrics)
+- [Installation](#installation)
+- [Dataset Structure & Annotation Format](#dataset-structure--annotation-format)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [References](#references)
+
 ---
 
 ## Table of Contents
