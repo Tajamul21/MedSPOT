@@ -6,10 +6,9 @@
     MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
 </h1>
 
-<!-- <div align="left"> -->
   [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
-<!-- </div> -->
----
+
+
 
 ## Table of Contents
 - [Overview](#overview)
