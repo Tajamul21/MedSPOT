@@ -1,8 +1,8 @@
 <div align="center">
-<figure class="center-figure"> <img src="Images/MedSPOT2.png" width="85%"></figure>
+  <img src="Images/MedSPOT2.png" width="85%" />
 </div>
 
-<h1 align="left">
+<h1 align="left" style="margin:24px 0;">
     MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
 </h1>
 
