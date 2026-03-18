@@ -18,7 +18,6 @@
 - [Results](#results)
 - [References](#references)
 
-
 ## Overview
 <div align="center">
 <figure class="center-figure"> <img src="Images/MedSPOT_pipeline.png" width="85%"></figure>
