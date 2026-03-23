@@ -1,13 +1,42 @@
-<div align="center">
-  <img src="Images/MedSPOT2.png" width="85%" />
+<div align="left">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+       width="100%" />
 </div>
 
-<h1 align="left" style="margin:24px 0;">
-    MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
-</h1>
+<div align="center">
+  <img src="Images/medspot2.jpeg" width="85%" />
+</div>
 
-  [![](https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface)](https://huggingface.co/datasets/Tajamul21/MedSPOT)
+<div align="center">
+  <h1>
+    <a href="https://arxiv.org/abs/2603.19993">
+      MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
+    </a>
+  </h1>
 
+  <p align="center">
+    <a href="https://rozainmalik.github.io/MedSPOT_web/">
+      <img src="https://img.shields.io/badge/Website-MedSPOT-purple?style=plastic">
+    </a>
+    <a href="https://huggingface.co/datasets/Tajamul21/MedSPOT">
+      <img src="https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface">
+    </a>
+    <a href="https://arxiv.org/pdf/2603.19993">
+      <img src="https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv">
+    </a>
+    <a href="https://github.com/Tajamul21/MedSPOT">
+      <img src="https://img.shields.io/badge/GitHub-repo-black?style=plastic&logo=github">
+    </a>
+  </p>
+</div>
+
+---
+
+## NEWS
+- **[03/18/2026]** We released the MedSPOT benchmark. See details regarding our benchmark in our [arXiv paper](https://arxiv.org/pdf/2603.19993)!
+- **[03/13/2026]** The Evaluation Scripts are now publicly available on our GitHub.
+
+---
 
 ## Table of Contents
 - [Overview](#overview)
@@ -26,7 +55,7 @@
 **MedSPOT** is a benchmark for evaluating Multimodal Large Language Models (MLLMs) on GUI grounding tasks in medical imaging software. It evaluates models on their ability to localize and interact with UI elements across 10 medical imaging applications including 3DSlicer, DICOMscope, Weasis, MITK, and others.
 
 ### Evaluation Protocol
-Tasks are evaluated **sequentially** — if a model fails a step, the task is terminated early. This reflects real-world GUI interaction where errors compound.
+Tasks are evaluated **sequentially**, if a model fails a step, the task terminates early. This reflects real-world GUI interaction where errors compound.
 
 ---
 
@@ -34,8 +63,8 @@ Tasks are evaluated **sequentially** — if a model fails a step, the task is te
 | Metric | Description |
 |--------|-------------|
 |**TCA** (Task Completion Accuracy)|Fraction of tasks where ALL steps are completed correctly in sequence|
-|**SHR** (Step Hit Rate)| Per-step accuracy across all evaluated steps  |
-|**S1A** (Step 1 Accuracy)| Accuracy on the first step of each task |
+|**SHR** (Step Hit Rate)|Per-step accuracy across all evaluated steps|
+|**S1A** (Step 1 Accuracy)|Accuracy on the first step of each task |
 
 
 
@@ -46,7 +75,7 @@ Tasks are evaluated **sequentially** — if a model fails a step, the task is te
 ```bash
 pip install torch>=2.0 transformers>=4.40 pillow tqdm
 ```
-Each model should be evaluated in its own recommended environment.  
+Each model should be evaluated in its recommended environment.  
 Follow the official setup instructions for the specific model you are evaluating.
 
 
@@ -193,12 +222,15 @@ results/
 ---
 
 ## References
-📝 Please cite our paper if you use our benchmark or code in your work:
+📝 If you find MedSPOT useful in your research, please consider citing our paper:
 ```bibtex
-@article{medspot2026,
-  title     = {MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI},
-  author    = {anonymous},
-  year      = {2026},
-  note      = {Under review}
+@misc{medspot,
+      title={MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI}, 
+      author={Rozain Shakeel and Abdul Rahman Mohammad Ali and Muneeb Mushtaq and Tausifa Jan Saleem and Tajamul Ashraf},
+      year={2026},
+      eprint={2603.19993},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.19993}, 
 }
 ```
