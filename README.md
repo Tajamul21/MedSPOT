@@ -33,8 +33,8 @@
 ---
 
 ## NEWS
-- **[03/18/2026]** We released the MedSPOT benchmark. See details regarding our benchmark in our [arXiv paper](https://arxiv.org/pdf/2603.19993)!
-- **[03/13/2026]** The Evaluation Scripts are now publicly available on our GitHub.
+- **[03/18/2026]** We released the MedSPOT benchmark. See details regarding our benchmark in our [arXiv paper](https://arxiv.org/abs/2603.19993)!
+- **[03/13/2026]** The Evaluation Scripts are now publicly available on our [GitHub](https://github.com/Tajamul21/MedSPOT).
 
 ---
 
