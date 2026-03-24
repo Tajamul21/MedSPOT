@@ -35,9 +35,8 @@
 <sup>4</sup> King Abdullah University of Science and Technology (KAUST), Saudi Arabia
 </p>
 
-<p>
-MedSPOT is a benchmark for evaluating <b>MLLMs</b> on workflow-aware clinical GUI grounding tasks across real-world medical software.
-</p>
+
+
   </tr>
 </table>
 
