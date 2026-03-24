@@ -1,42 +1,62 @@
-<div align="left">
+<div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
        width="100%" />
 </div>
 
-<div align="center">
-  <img src="Images/medspot2.jpeg" style="height: 300px; margin-top: 10px;" />
-</div>
+<br>
 
 <div align="center">
-  <h1>
-    <a href="https://arxiv.org/abs/2603.19993">
-      MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI
-    </a>
-  </h1>
-
-  <p align="center">
-    <a href="https://rozainmalik.github.io/MedSPOT_web/">
-      <img src="https://img.shields.io/badge/Website-MedSPOT-purple?style=plastic">
-    </a>
-    <a href="https://huggingface.co/datasets/Tajamul21/MedSPOT">
-      <img src="https://img.shields.io/badge/Dataset-online-yellow?style=plastic&logo=huggingface">
-    </a>
-    <a href="https://arxiv.org/pdf/2603.19993">
-      <img src="https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv">
-    </a>
-    <a href="https://github.com/Tajamul21/MedSPOT">
-      <img src="https://img.shields.io/badge/GitHub-repo-black?style=plastic&logo=github">
-    </a>
-  </p>
+  <img src="Images/medspot2.jpeg" height="300px" style="border-radius: 12px;" />
 </div>
 
 ---
 
-## NEWS
-- **[03/18/2026]** We released the MedSPOT benchmark. See details regarding our benchmark in our [arXiv paper](https://arxiv.org/abs/2603.19993)!
-- **[03/13/2026]** The Evaluation Scripts are now publicly available on our [GitHub](https://github.com/Tajamul21/MedSPOT).
+<div align="center">
+
+# 🧠 MedSPOT  
+### *A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI*
+
+<p>
+  <a href="https://arxiv.org/abs/2603.19993"><strong>📄 Paper</strong></a> ·
+  <a href="https://rozainmalik.github.io/MedSPOT_web/"><strong>🌐 Website</strong></a> ·
+  <a href="https://huggingface.co/datasets/Tajamul21/MedSPOT"><strong>🤗 Dataset</strong></a> ·
+  <a href="https://github.com/Tajamul21/MedSPOT"><strong>💻 Code</strong></a>
+</p>
+
+</div>
 
 ---
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Website-MedSPOT-purple?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface" />
+<img src="https://img.shields.io/badge/ArXiv-Paper-red?style=for-the-badge&logo=arxiv" />
+<img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
+
+</div>
+
+---
+
+## ✨ Overview
+**MedSPOT** introduces a novel benchmark for **workflow-aware sequential grounding** in clinical GUI environments, enabling evaluation of models in realistic, multi-step medical interaction scenarios.
+
+---
+
+## 🚀 News
+- **📅 Mar 18, 2026** — MedSPOT benchmark officially released! Check out the [paper](https://arxiv.org/abs/2603.19993)  
+- **📅 Mar 13, 2026** — Evaluation scripts are now available on [GitHub](https://github.com/Tajamul21/MedSPOT)
+
+---
+
+## 🔗 Quick Links
+- 🌐 Website: https://rozainmalik.github.io/MedSPOT_web/  
+- 🤗 Dataset: https://huggingface.co/datasets/Tajamul21/MedSPOT  
+- 📄 Paper: https://arxiv.org/pdf/2603.19993  
+- 💻 Code: https://github.com/Tajamul21/MedSPOT  
+
+---
+
 
 ## Table of Contents
 - [Overview](#overview)
