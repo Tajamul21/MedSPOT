@@ -7,10 +7,10 @@
 
 <table>
   <tr>
-    <td width="40%" align="center" valign="middle">
+    <td width="25%" align="center" valign="middle">
       <img src="Images/medspot2.jpeg" width="100%" style="border-radius: 12px;" />
     </td>
-    <td width="60%" valign="middle">
+    <td width="75%" valign="middle">
 
 <h1>🧠 MedSPOT</h1>
 
