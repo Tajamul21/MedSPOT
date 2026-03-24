@@ -5,13 +5,12 @@
 
 <br>
 
-<div align="center">
-  <img src="Images/medspot2.jpeg" height="300px" style="border-radius: 12px;" />
-</div>
-
----
-
-<div align="center">
+<table>
+  <tr>
+    <td width="40%" align="center">
+      <img src="Images/medspot2.jpeg" width="100%" style="border-radius: 12px;" />
+    </td>
+    <td width="60%" align="left">
 
 # 🧠 MedSPOT  
 ### *A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI*
@@ -23,7 +22,13 @@
   <a href="https://github.com/Tajamul21/MedSPOT"><strong>💻 Code</strong></a>
 </p>
 
-</div>
+<p>
+MedSPOT is a benchmark for evaluating <b>MLLMs</b> on workflow-aware clinical GUI grounding tasks across real-world medical software.
+</p>
+
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -47,15 +52,7 @@
 - **📅 Mar 18, 2026** — MedSPOT benchmark officially released! Check out the [paper](https://arxiv.org/abs/2603.19993)  
 - **📅 Mar 13, 2026** — Evaluation scripts are now available on [GitHub](https://github.com/Tajamul21/MedSPOT)
 
----
-
-## 🔗 Quick Links
-- 🌐 Website: https://rozainmalik.github.io/MedSPOT_web/  
-- 🤗 Dataset: https://huggingface.co/datasets/Tajamul21/MedSPOT  
-- 📄 Paper: https://arxiv.org/pdf/2603.19993  
-- 💻 Code: https://github.com/Tajamul21/MedSPOT  
-
----
+--
 
 
 ## Table of Contents
