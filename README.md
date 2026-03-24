@@ -7,13 +7,13 @@
 
 <table>
   <tr>
-    <td width="40%" align="center">
+    <td width="40%" align="center" valign="middle">
       <img src="Images/medspot2.jpeg" width="100%" style="border-radius: 12px;" />
     </td>
-    <td width="60%" align="left">
+    <td width="60%" align="left" valign="middle">
 
-# 🧠 MedSPOT  
-### *A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI*
+<h1>🧠 MedSPOT</h1>
+<h3><i>A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI</i></h3>
 
 <p>
   <a href="https://arxiv.org/abs/2603.19993"><strong>📄 Paper</strong></a> ·
