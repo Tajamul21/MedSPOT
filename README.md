@@ -16,8 +16,23 @@
 
 <p><i>A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI</i></p>
 
-<p>
-Rozain Shakeel · Abdul Rahman Mohammad Ali · Muneeb Mushtaq · Tausifa Jan Saleem · <b>Tajamul Ashraf</b>
+<p align="left">
+<a href="https://github.com/RozainMalik">Rozain Shakeel</a><sup>1</sup>, 
+<a href="https://www.linkedin.com/in/rxhman/">Abdul Rahman Mohammad Ali</a><sup>2</sup>, 
+<a href="https://www.linkedin.com/in/muneeb-ahmad-ganie">Muneeb Mushtaq</a><sup>1</sup>, 
+<a href="https://rozainmalik.github.io/MedSPOT_web/">Tausifa Jan Saleem</a><sup>3</sup>, 
+<b><a href="https://www.tajamulashraf.com/">Tajamul Ashraf</a><sup>1,4*</sup></b>
+</p>
+
+<p align="left">
+<sup>*</sup> Corresponding author
+</p>
+
+<p align="left">
+<sup>1</sup> Gaash Research Lab, National Institute of Technology Srinagar, India<br>
+<sup>2</sup> e&amp; Group, UAE<br>
+<sup>3</sup> Mohammad Bin Zayed University of Artificial Intelligence (MBZUAI), UAE<br>
+<sup>4</sup> King Abdullah University of Science and Technology (KAUST), Saudi Arabia
 </p>
 
 <p>
@@ -30,10 +45,21 @@ MedSPOT is a benchmark for evaluating <b>MLLMs</b> on workflow-aware clinical GU
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Website-MedSPOT-purple?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface" />
-<img src="https://img.shields.io/badge/ArXiv-Paper-red?style=for-the-badge&logo=arxiv" />
-<img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
+<a href="https://rozainmalik.github.io/MedSPOT_web/">
+  <img src="https://img.shields.io/badge/Website-MedSPOT-purple?style=for-the-badge" />
+</a>
+
+<a href="https://huggingface.co/datasets/Tajamul21/MedSPOT">
+  <img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface" />
+</a>
+
+<a href="https://arxiv.org/abs/2603.19993">
+  <img src="https://img.shields.io/badge/ArXiv-Paper-red?style=for-the-badge&logo=arxiv" />
+</a>
+
+<a href="https://github.com/Tajamul21/MedSPOT">
+  <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
+</a>
 
 </div>
 
