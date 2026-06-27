@@ -67,13 +67,14 @@
 ## ✨ Overview
 **MedSPOT** introduces a novel benchmark for **workflow-aware sequential grounding** in clinical GUI environments, enabling evaluation of models in realistic, multi-step medical interaction scenarios.
 
+--- 
+
+## NEWS
+- **[06/17/2026]** 🎉 Our paper has been accepted to ECCV 2026!
+- **[03/18/2026]** We released the MedSPOT benchmark. See details regarding our benchmark in our [arXiv paper](https://arxiv.org/abs/2603.19993)!
+- **[03/13/2026]** The Evaluation Scripts are now publicly available on our [GitHub](https://github.com/Tajamul21/MedSPOT).
+
 ---
-
-## 🚀 News
-- **📅 Mar 18, 2026** — MedSPOT benchmark officially released! Check out the [paper](https://arxiv.org/abs/2603.19993)  
-- **📅 Mar 13, 2026** — Evaluation scripts are now available on [GitHub](https://github.com/Tajamul21/MedSPOT)
-
---
 
 
 ## Table of Contents
